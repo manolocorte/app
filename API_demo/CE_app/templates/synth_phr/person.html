@@ -1,0 +1,43 @@
+{% extends "synth_phr/layout.html" %}
+
+{% block title %}Person{% endblock %}
+
+{% block content %}
+
+<H2>Person Help Menu</H2>
+
+<p>This endpoint returns a full person record.</p>
+
+<H1>DRAFT</H1>
+
+<H2>Available Options</H2>
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/synth_phr/api/v01/person">/api/v01/person</a></td>
+		<td>Returns random person(s).</td>
+	</tr>
+	<tr>
+		<td>&number=nnn</td>
+		<td>This parameter defines the number of records to return.<br>
+Anonymous (free) users can request up to 05 records at a time.<br>
+Paid subscribers can request up to 100 records at a time.<br>
+(Default = 1 record).</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/person?age=33&country=us">/api/v01/person?age=nnn</a></td>
+		<td>Returns random person(s) within the selected age.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/person?help">/api/v01/person?help</a></td>
+		<td>This help menu.</td>
+	</tr>
+</table>
+
+{% endblock %}

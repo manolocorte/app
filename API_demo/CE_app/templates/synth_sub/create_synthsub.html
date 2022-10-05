@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <div class="form-wrapper">
+        <h1 class="title">Create New Synthetic Submission</h1>
+        <br>
+        <form method="POST" action="{{ url_for('synth_sub.create_synthsub') }}">
+            {{ form.hidden_tag() }}
+            {{ form.submit }}
+      </form>
+    </div>
+{% endblock %}

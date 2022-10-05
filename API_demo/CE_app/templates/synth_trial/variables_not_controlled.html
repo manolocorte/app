@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <h1 class="title">Create New Synthetic Trial</h1>
+    <br>
+    <h2>Upload file with Variables Not Controlled by Standards</h2>
+    <p>Here users can define their own allowable values for non standard variables by a JSON file (download a sample at the bottom). However, we implement one by default if you prefer to continue witout file.</p>
+    {{ dropzone.load_css()}}
+    {{ dropzone.style('border: 2px dashed #0087F7; margin: 5%; min-height: 10px;') }}
+    {{ dropzone.create(action="synth_trial.variables_not_controlled") }}
+    {{ dropzone.load_js() }}
+    {{ dropzone.config(max_files=1, max_file_size=1, allowed_file_custom=True, allowed_file_type='.json', default_message='Drop files here or click to upload (only JSON files accepted)') }}
+    {{ form.csrf_token }}
+    <div class="form-wrapper">
+        <form action="{{ url_for('synth_trial.variables_not_controlled') }}" enctype="multipart/form-data" method="POST">
+            {{ form.csrf_token }}
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-4 col-lg-4 col-xl-4 form-group"></div>
+                <div class="col-xs-3 col-sm-2 col-md-2 col-2 col-lg-2 col-xl-2 form-group">
+                    <button class="btn btn-primary" name="submit_button" id="continue" value="Continue">Continue</button>
+                </div>
+                <div>
+                    <button class="btn btn-primary" name="submit_button" id="continue_no_file" value="Continue without file">Continue without file</button>
+                </div>
+            </div>
+            {{ form.download }}
+        </form>
+     </div>
+{% endblock %}

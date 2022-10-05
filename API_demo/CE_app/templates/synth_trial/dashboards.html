@@ -1,0 +1,270 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <!-- <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" data-toggle="modal" data-target="#myModal1">Table 1</a></li>
+          <li><a class="dropdown-item" data-toggle="modal" data-target="#myModal2">Table 2</a></li>
+          <li><a class="dropdown-item" data-toggle="modal" data-target="#myModal3">Table 3</a></li>
+        </ul>
+    </div> -->
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose Table
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" id="tables_menu" style="overflow-y: auto; max-height: 280px">
+            {% for table_name in list_tables %}
+                <li><a href="#">{{table_name}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="panel panel-default" id="data_tables">
+        <div class="panel-heading">Trial Tables</div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="sample_data" class="table table-bordered table-striped">
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 1-->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+            <div class="panel panel-default">
+                <div class="panel-heading">DataTable</div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <iframe id='superset_iframe' src="{{dashboard_url}}/?standalone=true" width="100%" height="1000"></iframe>
+    <button type="button" id="create_submission" class="btn btn-primary">Create Submission</button>
+    
+{% endblock %}
+{% block scripts %}
+    <script type="text/javascript" language="javascript">
+        
+        // Function to crete the correct table
+        function loadTable(tableId, fields, data, table_name, user_permissions) {
+            var rows = '<thead id="head_data"><tr>';
+
+            $.each(fields, function(index, field) {
+                rows += '<th>' + field + '</th>';
+            });
+
+            rows += '</tr></thead><tbody>';
+
+            $.each(data, function(index, row_data) {
+                rows += '<tr>'
+                $.each(fields, function(index, item) {
+                    rows += '<td data-name="' + item +  '" class="' + item + '" data-type="text" data-pk="' + row_data['id'] + '">' + row_data[item] + '</td>';
+                });
+                rows += '</tr>'
+            });
+            rows += '</tbody>'
+            $('#' + tableId).html(rows);
+            
+            $('#sample_data').DataTable();
+
+            if (user_permissions.includes('edit_records')) {
+                $.each(fields, function(index, item) {
+                    $('#sample_data').editable({
+                        container:'body',
+                        selector:'td.' + item,
+                        params:{table_name: table_name},
+                        url:'/synth_trial/update-db',
+                        title:item,
+                        type:'POST',
+                        validate:function(value){
+                            if($.trim(value) == '')
+                            {
+                                return 'This field is required';
+                            }
+                        },
+                        error:function(request, status, message){
+                            alert("Error\n" + request.responseJSON.message);
+                        }
+                    });
+                });
+            }; 
+        }
+
+        // Function to update table data
+        function updateTable(table_name, user_permissions) {
+            $.ajax({
+                type: "POST",
+                url: "/synth_trial/get_data",
+                data: JSON.stringify(table_name),
+                contentType: "application/json",
+                dataType: 'json',
+                success: function(result){
+                    loadTable('sample_data', result[0], result[1], table_name, user_permissions)  
+                }
+            });
+        }
+        
+        // Function to update table data
+        function createSubmission(file_name, user_id) {
+            var data = {
+                trial_file: file_name,
+                user_id: user_id,
+            };
+            $.ajax({
+                type: "POST",
+                url: "/synth_trial/create_submission",
+                data: JSON.stringify(data),
+                contentType: "application/json",
+                dataType: 'json',
+                success: function(result){
+                    alert('Submission created successfully')
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            var user_id = '{{ user_id }}';
+            var file_name = '{{ file_name }}';
+            var user_permissions = '{{ user_permissions|tojson }}';
+            var data_tables = document.querySelector('#data_tables');
+            var superset_iframe = document.querySelector('#superset_iframe');
+            var create_submission = document.querySelector('#create_submission');
+
+            if(!user_permissions.includes('read_records')){
+                data_tables.style.display = 'none';
+            }
+
+            if(!user_permissions.includes('see_dashboards')){
+                superset_iframe.style.display = 'none';
+            }
+
+            if(!user_permissions.includes('create_submissions')){
+                create_submission.style.display = 'none';
+            }
+            
+            // Use Demographics table as default in the first refresh
+            updateTable('Synth_PHR_Demographics', user_permissions)
+            
+            // Show chosen table when clicked
+            $('#tables_menu a').on('click', function () {
+                var table = ($(this).text());
+                var old_table = $('#sample_data').DataTable();
+                old_table.destroy();
+                updateTable(table, user_permissions);
+            });
+
+            $('#create_submission').on('click', function () {
+                createSubmission(file_name, user_id);
+            });
+        });
+
+        // Modal try
+        // $('#myModal1').draggable(); // Let move the pop up window
+
+        // $('#myModal1').on('shown.bs.modal', function (e) {
+        //     var dataTable = $('#table1').DataTable();
+
+        //     $('#table1').editable({
+        //         container:'body',
+        //         selector:'td.Patient_ID',
+        //         url:'/synth_trial/update-db',
+        //         title:'Patient ID',
+        //         type:'POST',
+        //         validate:function(value){
+        //             if($.trim(value) == '')
+        //             {
+        //                 return 'This field is required';
+        //             }
+        //         }
+        //     });
+            
+        //     $('#table1').editable({
+        //         container:'body',
+        //         selector:'td.First_Name',
+        //         url:'/synth_trial/update-db',
+        //         title:'First Name',
+        //         type:'POST',
+        //         validate:function(value){
+        //             if($.trim(value) == '')
+        //             {
+        //                 return 'This field is required';
+        //             }
+        //         }
+        //     });
+
+        //     $('#table1').editable({
+        //         container:'body',
+        //         selector:'td.Last_Name',
+        //         url:'/synth_trial/update-db',
+        //         title:'Last Name',
+        //         type:'POST',
+        //         validate:function(value){
+        //             if($.trim(value) == '')
+        //             {
+        //                 return 'This field is required';
+        //             }
+        //         }
+        //     });
+
+        //     $('#table1').editable({
+        //         container:'body',
+        //         selector:'td.USUBJID',
+        //         url:'/synth_trial/update-db',
+        //         title:'USUBJID',
+        //         type:'POST',
+        //         validate:function(value){
+        //             if($.trim(value) == '')
+        //             {
+        //                 return 'This field is required';
+        //             }
+        //         }
+        //     });
+        
+        //     $('#table1').editable({
+        //         container:'body',
+        //         selector:'td.position',
+        //         url:'/synth_trial/update-db',
+        //         title:'Position',
+        //         type:'POST',
+        //         validate:function(value){
+        //             if($.trim(value) == '')
+        //             {
+        //                 return 'This field is required';
+        //             }
+        //         }
+        //     });
+        
+        //     // $('#table1').editable({
+        //     //     container:'body',
+        //     //     selector:'td.phone',
+        //     //     url:'/updateemployee',
+        //     //     title:'Phone',
+        //     //     type:'POST',
+        //     //     validate:function(value){
+        //     //         if($.trim(value) == '')
+        //     //         {
+        //     //             return 'This field is required';
+        //     //         }
+        //     //     }
+        //     // });
+        // })
+    </script>
+{% endblock %}

@@ -1,0 +1,134 @@
+{% extends "synth_phr/layout.html" %}
+
+{% block title %}Drug{% endblock %}
+
+{% block content %}
+
+<H2>Drug Help Menu</H2>
+
+<p>This endpoint returns full details of a drug approved for use in either the EU or the US.</p>
+
+
+<H1>DRAFT</H1>
+
+
+<H2>Available Options For FDA (Food and Drug Administration) Records</H2>
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda">/api/v01/drug?regulator=us_fda</a></td>
+		<td>Returns random drug(s) approved by the FDA.</td>
+	</tr>
+	<tr>
+		<td>&number=nnn</td>
+		<td>This parameter defines the number of records to return.<br> Anonymous (free) users can request up to 05 records at a time.<br> Paid subscribers can request up to 100 records at a time.<br>
+		(Default = 1 record).</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&active_ingredient=sulfapyridine">/api/v01/drug?regulator=us_fda&active_ingredient=abc</a></td>
+		<td>Returns random drug(s) within the selected active ingredient.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&applno=000552">/api/v01/drug?regulator=us_fda&appno=nnn</a></td>
+		<td>Returns a full record for an individual Application Number.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&form=vial">/api/v01/drug?regulator=us_fda&form=abc</a></td>
+		<td>Returns random drug(s) within the selected form of administration.<br>Options: "AEROSOL"; "BAR"; "CAPSULE"; "CLOTH"; "CONCENTRATE"; "CREAM"; "DISC"; "EMULSION"; "ENEMA"; "FIBER"; "FILM"; "FOAM"; "GAS"; "GEL"; "GRANULE"; "GUM"; "IMPLANT"; "INHALANT"; "INJECTABLE"; "LIQUID"; "OINTMENT"; "PASTE"; "PASTILLE"; "PATCH"; "PELLET"; "POWDER"; "SHAMPOO"; "SOAP"; "SOLUTION"; "SPONGE"; "SPRAY"; "SUPPOSITORY"; "SUSPENSION"; "SWAB"; "SYRUP"; "TABLET"; "VIAL"<br></td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&marketing_status=disc">/api/v01/drug?regulator=us_fda&marketing_status=abc</a></td>
+		<td>Returns random drug(s) within the selected marketing status.<br>Options for "us_fda" regulator:<br> "Disc" for "Discontinued"<br> "None" for "None (Tentative Approval)"<br> "Otc" for "Over-the-counter"<br>"Pre" for "Prescription"</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&name=paredrine">/api/v01/drug?regulator=us_fda&name=abc</a></td>
+		<td>Returns random drug(s) within the selected name.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&sponsor=pharmics">/api/v01/drug?regulator=us_fda&sponsor=abc</a></td>
+		<td>Returns random drug(s) within the selected sponsor.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&submission_type=orig">/api/v01/drug?regulator=us_fda&submission_type=abc</a></td>
+		<td>Returns random drug(s) within the selected submission type.<br>Options:<br> "ORIG"<br> "SUPPL"</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&help_active_ingredients=a">/api/v01/drug?regulator=us_fda&help_active_ingredients=[character]</a></td>
+		<td>Returns a list of all active ingredients that start with the single character.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&help_names=c">/api/v01/drug?regulator=us_fda&help_names=[character]</a></td>
+		<td>Returns a list of all drug names that start with the single character.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=us_fda&help_sponsors=h">/api/v01/drug?regulator=us_fda&help_sponsors=[character]</a></td>
+		<td>Returns a list of all sponsors that start with the single character.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?help">/api/v01/drug?help</a></td>
+		<td>This help menu.</td>
+	</tr>
+</table>
+
+<H2>Available Options For EMA (European Medicines Agency) Records</H2>
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema">/api/v01/drug?regulator=eu_ema</a></td>
+		<td>Returns random drug(s) approved by the EMA.</td>
+	</tr>
+	<tr>
+		<td>&number=nnn</td>
+		<td>This parameter defines the number of records to return.<br>Anonymous (free) users can request up to 05 records at a time.<br>Paid subscribers can request up to 100 records at a time.<br>(Default = 1 record).</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema&active_ingredient=peramivir">/api/v01/drug?regulator=eu_ema&active_ingredient=abc</a></td>
+		<td>Returns random drug(s) within the selected active ingredient.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema&applno=000482">/api/v01/drug?regulator=eu_ema&applno=nnn</a></td>
+		<td>returns a full record for an individual Application Number.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema&marketing_status=authorised">/api/v01/drug?regulator=eu_ema&marketing_status=abc</a></td>
+		<td>Returns random drug(s) within the selected marketing status.<br>Options::<br> "Authorised"<br> "Withdrawn"<br> "Refused"<br> "Suspended"</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema&name=zalmoxis">/api/v01/drug?regulator=eu_ema&name=abc</a></td>
+		<td>Returns random drug(s) within the selected name.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema&sponsor=bayer ag">/api/v01/drug?regulator=eu_ema&sponsor=abc</a></td>
+		<td>Returns random drug(s) within the selected sponsor.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema&help_active_ingredients=a">/api/v01/drug?regulator=eu_ema&help_active_ingredients=[character]</a></td>
+		<td>Returns a list of all active ingredients that start with the single character.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema&help_names=c">/api/v01/drug?regulator=eu_ema&help_names=[character]</a></td>
+		<td>Returns a list of all drug names that start with the single character.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?regulator=eu_ema&help_sponsors=h">/api/v01/drug?regulator=eu_ema&help_sponsors=[character]</a></td>
+		<td>Returns a list of all sponsors that start with the single character.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?help">/api/v01/drug?help</a></td>
+		<td>This help menu.</td>
+	</tr>
+</table>
+
+{% endblock %}

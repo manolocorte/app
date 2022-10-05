@@ -1,0 +1,84 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}nihpo\_apiFull}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}API\_NIHPO module}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}config package}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Submodules}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}config.default module}{1}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}config.develop module}{1}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}config.local module}{1}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}config.prod module}{1}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}config.testing module}{1}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}Module contents}{1}{subsection.1.2.7}%
+\contentsline {section}{\numberline {1.3}portal\_app package}{1}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Subpackages}{1}{subsection.1.3.1}%
+\contentsline {subsubsection}{portal\_app.auth package}{2}{subsubsection*.5}%
+\contentsline {paragraph}{Submodules}{2}{paragraph*.6}%
+\contentsline {paragraph}{portal\_app.auth.email module}{2}{paragraph*.7}%
+\contentsline {paragraph}{portal\_app.auth.forms module}{2}{paragraph*.12}%
+\contentsline {paragraph}{portal\_app.auth.routes module}{3}{paragraph*.27}%
+\contentsline {paragraph}{Module contents}{3}{paragraph*.37}%
+\contentsline {subsubsection}{portal\_app.errors package}{3}{subsubsection*.38}%
+\contentsline {paragraph}{Submodules}{3}{paragraph*.39}%
+\contentsline {paragraph}{portal\_app.errors.handlers module}{3}{paragraph*.40}%
+\contentsline {paragraph}{Module contents}{4}{paragraph*.43}%
+\contentsline {subsubsection}{portal\_app.main package}{4}{subsubsection*.44}%
+\contentsline {paragraph}{Submodules}{4}{paragraph*.45}%
+\contentsline {paragraph}{portal\_app.main.forms module}{4}{paragraph*.46}%
+\contentsline {paragraph}{portal\_app.main.routes module}{4}{paragraph*.55}%
+\contentsline {paragraph}{Module contents}{5}{paragraph*.72}%
+\contentsline {subsubsection}{portal\_app.podr package}{5}{subsubsection*.73}%
+\contentsline {paragraph}{Submodules}{5}{paragraph*.74}%
+\contentsline {paragraph}{portal\_app.podr.email module}{5}{paragraph*.75}%
+\contentsline {paragraph}{portal\_app.podr.routes module}{5}{paragraph*.77}%
+\contentsline {paragraph}{Module contents}{5}{paragraph*.78}%
+\contentsline {subsubsection}{portal\_app.synth\_person package}{5}{subsubsection*.79}%
+\contentsline {paragraph}{Submodules}{5}{paragraph*.80}%
+\contentsline {paragraph}{portal\_app.synth\_person.email module}{5}{paragraph*.81}%
+\contentsline {paragraph}{portal\_app.synth\_person.forms module}{5}{paragraph*.83}%
+\contentsline {paragraph}{portal\_app.synth\_person.functions module}{8}{paragraph*.90}%
+\contentsline {paragraph}{portal\_app.synth\_person.routes module}{8}{paragraph*.92}%
+\contentsline {paragraph}{Module contents}{8}{paragraph*.96}%
+\contentsline {subsubsection}{portal\_app.synth\_phr package}{8}{subsubsection*.97}%
+\contentsline {paragraph}{Submodules}{8}{paragraph*.98}%
+\contentsline {paragraph}{portal\_app.synth\_phr.email module}{8}{paragraph*.99}%
+\contentsline {paragraph}{portal\_app.synth\_phr.forms module}{9}{paragraph*.101}%
+\contentsline {paragraph}{portal\_app.synth\_phr.functions module}{12}{paragraph*.108}%
+\contentsline {paragraph}{portal\_app.synth\_phr.json\_subject\_creation module}{15}{paragraph*.124}%
+\contentsline {paragraph}{portal\_app.synth\_phr.routes module}{15}{paragraph*.125}%
+\contentsline {paragraph}{portal\_app.synth\_phr.sqlite\_subject\_creation module}{16}{paragraph*.142}%
+\contentsline {paragraph}{portal\_app.synth\_phr.subjects\_creation module}{16}{paragraph*.143}%
+\contentsline {paragraph}{portal\_app.synth\_phr.synth\_phr\_func module}{17}{paragraph*.146}%
+\contentsline {paragraph}{Module contents}{18}{paragraph*.150}%
+\contentsline {subsubsection}{portal\_app.synth\_sub package}{18}{subsubsection*.151}%
+\contentsline {paragraph}{Submodules}{18}{paragraph*.152}%
+\contentsline {paragraph}{portal\_app.synth\_sub.forms module}{18}{paragraph*.153}%
+\contentsline {paragraph}{portal\_app.synth\_sub.routes module}{18}{paragraph*.156}%
+\contentsline {paragraph}{Module contents}{18}{paragraph*.157}%
+\contentsline {subsubsection}{portal\_app.synth\_trial package}{18}{subsubsection*.158}%
+\contentsline {paragraph}{Submodules}{18}{paragraph*.159}%
+\contentsline {paragraph}{portal\_app.synth\_trial.constants module}{18}{paragraph*.160}%
+\contentsline {paragraph}{portal\_app.synth\_trial.email module}{19}{paragraph*.169}%
+\contentsline {paragraph}{portal\_app.synth\_trial.forms module}{19}{paragraph*.171}%
+\contentsline {paragraph}{portal\_app.synth\_trial.functions module}{20}{paragraph*.192}%
+\contentsline {paragraph}{portal\_app.synth\_trial.routes module}{22}{paragraph*.197}%
+\contentsline {paragraph}{portal\_app.synth\_trial.trial\_design\_creation module}{23}{paragraph*.208}%
+\contentsline {paragraph}{Module contents}{23}{paragraph*.209}%
+\contentsline {subsubsection}{portal\_app.tests package}{23}{subsubsection*.210}%
+\contentsline {paragraph}{Submodules}{23}{paragraph*.211}%
+\contentsline {paragraph}{portal\_app.tests.test\_main module}{23}{paragraph*.212}%
+\contentsline {paragraph}{portal\_app.tests.test\_nihpo\_functions module}{23}{paragraph*.218}%
+\contentsline {paragraph}{portal\_app.tests.test\_phr module}{24}{paragraph*.228}%
+\contentsline {paragraph}{portal\_app.tests.test\_trial module}{25}{paragraph*.244}%
+\contentsline {paragraph}{portal\_app.tests.test\_user module}{26}{paragraph*.250}%
+\contentsline {paragraph}{Module contents}{27}{paragraph*.258}%
+\contentsline {subsection}{\numberline {1.3.2}Submodules}{35}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}portal\_app.celery\_utils module}{35}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}portal\_app.cli module}{35}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}portal\_app.email module}{35}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}portal\_app.models module}{36}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}portal\_app.nihpo\_functions module}{37}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.8}portal\_app.translate module}{40}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.9}Module contents}{40}{subsection.1.3.9}%
+\contentsline {chapter}{\numberline {2}Indices and tables}{41}{chapter.2}%
+\contentsline {chapter}{Python Module Index}{43}{section*.426}%
+\contentsline {chapter}{Index}{45}{section*.427}%

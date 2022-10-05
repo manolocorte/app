@@ -1,0 +1,150 @@
+{
+	"AEBODSYS": [],
+	"AECAT": ["BLEEDING", "NEUROPSYCHIATRIC"],
+	"AEPATT": ["INTERMITTENT", "CONTINUOUS", "SINGLE EVENT"],
+	"AEREL": ["NOT RELATED", "UNLIKELY RELATED", "POSSIBLY RELATED", "RELATED"],
+	"AESCAT": ["NEUROLOGIC"],
+	"AETOXGR": [],
+	"AGCAT": ["CHALLENGE AGENT", "PET TRACER"],
+	"AGCLAS": [],
+	"AGCLASCD": [],
+	"AGDECOD": [],
+	"AGSCAT": [],
+	"ARMNRS": ["SCREEN FAILURE", "NOT ASSIGNED", "ASSIGNED, NOT TREATED", "UNPLANNED TREATMENT"],
+	"BECAT": ["PREPARATION", "TRANSPORT"],
+	"BEPARTY": [],
+	"BESCAT": [],
+	"BSANTREG": ["CORTEX", "MEDULLA", "MUCOSA"],
+	"BSSCAT": [],
+	"BSSPEC": ["SERUM", "PLASMA", "URINE", "SOFT TISSUE"],
+	"CEBODSYS": [],
+	"CECAT": [],
+	"CEDECOD": [],
+	"CESCAT": [],
+	"CESEV": ["MILD", "MODERATE", "SEVERE"],
+	"CETOXGR": [],
+	"CVCAT": [],
+	"CVSCAT": [],
+	"CVSTRESC": [],
+	"DACAT": ["STUDY MEDICATION", "RESCUE MEDICATION"],
+	"DASCAT": [],
+	"DDRESCAT": ["TREATMENT RELATED", "NONTREATMENT RELATED", "UNDETERMINED", "ACCIDENTAL"],
+	"DVCAT": [],
+	"DVDECOD": ["SUBJECT NOT WITHDRAWN AS PER PROTOCOL", "SELECTION CRITERIA NOT MET", "EXCLUDED CONCOMITANT MEDICATION", "TREATMENT DEVIATION"],
+	"DVSCAT": [],
+	"ECCAT": [],
+	"ECPSTRGU": ["mg/TABLET", "mg/mL"],
+	"ECSCAT": [],
+	"ECTRT": [],
+	"EGCAT": ["MEASUREMENT", "FINDING", "INTERVAL"],
+	"EGSCAT": [],
+	"EXADJ": [],
+	"EXCAT": [],
+	"EXSCAT": [],
+	"EXTRT": [],
+	"FACAT": ["GERD", "PRE-SPECIFIED AE"],
+	"FASCAT": [],
+	"FTTEST": ["W2501-25 Foot Walk Time", "W25F-More Than Two Attempts"],
+	"FTTESTCD": ["W250101", "W25F0102"],
+	"HOCAT": [],
+	"HOSCAT": [],
+	"IDVAR": [],
+	"IESCAT": ["MAJOR", "MINOR"],
+	"IETEST": [],
+	"IETESTCD": [],
+	"ISCAT": ["SEROLOGY"],
+	"ISSCAT": [],
+	"LBCAT": ["HEMATOLOGY", "URINALYSIS", "CHEMISTRY"],
+	"LBSCAT": [],
+	"LBTOX": [],
+	"LBTOXGR": [],
+	"MBCAT": [],
+	"MBSCAT": [],
+	"MHBODSYS": [],
+	"MHCAT": ["CARDIAC", "GENERAL"],
+	"MHDECOD": [],
+	"MHSCAT": [],
+	"MICAT": [],
+	"MIDS": ["HYPO1"],
+	"MIDSTYPE": ["HYPOGLYCEMIC EVENT"],
+	"MIRESCAT": ["MALIGNANT", "BENIGN"],
+	"MISCAT": [],
+	"MKCAT": ["SWOLLEN/TENDER JOINT ASSESSMENT"],
+	"MKSCAT": [],
+	"MLCAT": [],
+	"MLSCAT": [],
+	"MLTRT": [],
+	"MSCAT": [],
+	"MSSCAT": [],
+	"OECAT": ["VISUAL ACUITY", "CONTRAST SENSITIVITY", "OCULAR COMFORT"],
+	"OESCAT": ["HIGH CONTRAST", "LOW CONTRAST"],
+	"OETSTDTL": [],
+	"OIPARM": ["Group", "Genotype", "Subtype"],
+	"OIPARMCD": ["GROUP", "GENTYP", "SUBTYP"],
+	"OIVAL": [],
+	"PCCAT": ["ANALYTE", "SPECIMEN PROPERTY"],
+	"PCSCAT": [],
+	"PECAT": ["GENERAL"],
+	"PESCAT": [],
+	"PETEST": ["Head", "Ear/Nose/Throat"],
+	"PETESTCD": ["HEAD", "ENT"],
+	"PPCAT": [],
+	"PPSCAT": ["COMPARTMENTAL", "NON-COMPARTMENTAL"],
+	"PRCAT": [],
+	"PRSCAT": [],
+	"QSSCAT": [],
+	"QSTEST": ["[?]", "BPR01 - Emotional withdrawal"],
+	"QSTESTCD": ["ADCCMD01", "BPR0103"],
+	"SCCAT": [],
+	"SCSCAT": [],
+	"SITEID": [],
+	"SSCAT": [],
+	"SSSCAT": [],
+	"SUCAT": ["TOBACCO", "ALCOHOL", "CAFFEINE"],
+	"SUCLAS": [],
+	"SUCLASCD": [],
+	"SUDECOD": [],
+	"SUDOSFRM": ["LIQUID", "POWDER"],
+	"SUSCAT": ["CIGARS", "CIGARETTES", "BEER", "WINE"],
+	"URCAT": [],
+	"URSCAT": [],
+	"URTSTDTL": [],
+	"VSCAT": [],
+	"VSSCAT": [],
+	"VSTEST": 
+	{
+		"S00001":{
+			"item_name": "VERY LOW"
+		},
+		"S00002":{
+			"item_name": "LOW LOW"
+		},
+		"S00003":{
+			"item_name": "NORMAL NORMAL"
+		},
+		"S00004":{
+			"item_name": "HIGH HIGH"
+		},
+		"S00005":{
+			"item_name": "VERY HIGH"
+		}
+	},
+	"VSTESTCD": 
+	{
+		"S00001":{
+			"item_name": "VLOW"
+		},
+		"S00002":{
+			"item_name": "LOW"
+		},
+		"S00003":{
+			"item_name": "NORMAL"
+		},
+		"S00004":{
+			"item_name": "HIGH"
+		},
+		"S00005":{
+			"item_name": "VHIGH"
+		}
+	}
+}

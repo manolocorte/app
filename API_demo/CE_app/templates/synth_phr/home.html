@@ -1,0 +1,78 @@
+{% extends "synth_phr/layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+
+<H2>Main Help Menu</H2>
+
+<H2>Functional Blocks</H2>
+
+<p>These are the functional blocks the NIHPO Synthetic People Platform implements.</p>
+
+<p>Each Functional Block is exposed as a fully-formed API.</p>
+
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/synth_phr/api/v01/condition?help">Condition</a></td>
+		<td>A scientifically-valid health condition.<br>Using concepts from the SNOMED CT hierarchy "Clinical finding".</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/device?help">Device</td>
+		<td>A medical device approved for use in the US.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/drug?help">Drug</a></td>
+		<td>Full details of a drug approved for use in either the EU or the US.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/geography?help">Geography</a></td>
+		<td>A location in a province within a country anywhere in the world.</td>
+	</tr>
+	<tr>
+		<!-- <a href="/api/v01/lab_result?help"> -->
+		<td><a href="/synth_phr/api/v01/lab_result?help">Lab Result</td>
+		<td>A scientifically-valid laboratory result set.<br>Using the Universal Lab Orders Value Set from LOINC. These LOINC codes cover more than 95% of lab test orders in the U.S.</td>
+	</tr>
+	<tr>
+		<!-- <a href="/api/v01/procedure?help"> -->
+		<td><a href="/synth_phr/api/v01/procedure?help">Procedure</a></td>
+		<td>Full details of a medical procedure.<br>Using a list of the most commonly-used procedures in SNOMED-CT.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/provider?help">Provider</a></td>
+		<td>Full details on a Medicare-listed, US-based healthcare provider.</td>
+	</tr>
+	<tr>
+		<!-- <a href="/api/v01/vital?help">-->
+		<td><a href="/synth_phr/api/v01/vital?help">Vitals</td>
+		<td>A scientifically-valid human body vital sign reading.</td>
+	</tr>
+</table>
+
+
+
+<H2>Synthetic Personal Health Record (PHR)</H2>
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/api/v01/person?help">Person</a></td>
+		<td>Using the above individual elements a user can then assemble a full Synthetic Personal Health Record (PHR).</td>
+	</tr>
+</table>
+
+{% endblock %}

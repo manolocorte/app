@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <div class="form-wrapper">
+        <h1 class="title">Synthetic PHR</h1>
+        <br>
+        <form method="POST" action="{{ url_for('main.synthphr') }}">
+            {{ form.hidden_tag() }}
+            <h3>Create New Synthetic PHR</h3>
+            <fieldset class="form-field">
+            <pre>{{ form.create.label }}  {{ form.create }}</pre>
+                {% if form.create.errors %}
+                <ul class="errors">
+                    {% for error in form.create.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </fieldset>
+            <h3>Download Synthetic PHR Files</h3>
+            <fieldset class="form-field">
+            <pre>{{ form.phr_files.label }}  {{ form.phr_files }}
+
+{{ form.download }}</pre>
+                {% if form.phr_files.errors %}
+                <ul class="errors">
+                    {% for error in form.phr_files.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+            </fieldset>
+            {% endif %}
+            {% if current_user.username + '_tasks_phr_id' in session %}
+                <button class="button" onclick=' window.open("{{ url_for('synth_phr.check_tasks') }}","_blank")'> Check Files Creation Status</button>
+            {% endif %}
+      </form>
+    </div>
+{% endblock %}

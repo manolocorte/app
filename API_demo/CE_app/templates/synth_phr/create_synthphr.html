@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <div class="form-wrapper">
+        <h1 class="title">Create New Synthetic PHR</h1>
+        <br>
+        <form method="POST" action="{{ url_for('synth_phr.create_synthphr') }}">
+            {{ form.hidden_tag() }}
+            <h3>Gender Distribution</h3>
+            <fieldset class="form-field">
+            <pre>{{ form.female.label }} {{ form.female }}    {{ form.male.label }} {{ form.male }}</pre>
+                {% if form.female.errors %}
+                <ul class="errors">
+                    {% for error in form.female.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if form.male.errors %}
+                <ul class="errors">
+                    {% for error in form.male.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </fieldset>
+            <br>
+            <h3>Age Range</h3>
+            <fieldset class="form-field">
+            <pre>{{ form.min_age.label }} {{ form.min_age }}  Years     {{ form.max_age.label }} {{ form.max_age }} Years </pre>
+                {% if form.min_age.errors %}
+                <ul class="errors">
+                    {% for error in form.min_age.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if form.max_age.errors %}
+                <ul class="errors">
+                    {% for error in form.max_age.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </fieldset>
+            <br>
+            <h3>Real World Data</h3>
+            <fieldset class="form-field">
+            <pre>{{ form.drug_regulator.label }}  {{ form.drug_regulator }}       {{ form.device_regulator.label }}  {{ form.device_regulator }}
+
+{{ form.drug_random.label }}  {{ form.drug_random }}
+
+    <div id="first_level">
+        {{ form.drug_1st_level.label }}  {{ form.drug_1st_level }}
+    </div>
+    <div id="second_level">
+        {{ form.drug_2nd_level.label }}  {{ form.drug_2nd_level }}
+    </div>
+            </pre>
+                {% if form.drug_regulator.errors %}
+                <ul class="errors">
+                    {% for error in form.drug_regulator.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if form.drug_random.errors %}
+                <ul class="errors">
+                    {% for error in form.drug_random.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if form.drug_1st_level.errors %}
+                <ul class="errors">
+                    {% for error in form.drug_1st_level.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if form.drug_2nd_level.errors %}
+                <ul class="errors">
+                    {% for error in form.drug_2nd_level.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </fieldset>
+            <br>
+            <h3>Output Options</h3>
+            <fieldset class="form-field">
+             <pre>{{ form.output_file_name.label }} {{ form.output_file_name }}    {{ form.output_type.label }} {{ form.output_type }} Only SQLite3 format is available to create a Synthetic Trial Design </pre>
+                {% if form.output_file_name.errors %}
+                <ul class="errors">
+                    {% for error in form.output_file_name.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if form.output_type.errors %}
+                <ul class="errors">
+                    {% for error in form.output_type.errors %}
+                    <span style="color: red;">[{{ error }}]</span>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </fieldset>
+            <br>
+            {{ form.submit }}
+      </form>
+    </div>
+    <script>
+        let drugs_randomization = document.getElementById('drug_random_new');
+        let drug_1st_level = document.getElementById('first_level');
+        let drug_2nd_level = document.getElementById('second_level');
+        let drugs_randomization_select = document.getElementById('drug_random');
+        let drug_1st_level_select = document.getElementById('drug_1st_level');
+        let drug_2nd_level_select = document.getElementById('drug_2nd_level');
+
+        drug_1st_level.style.display = "none";
+        drug_2nd_level.style.display = "none";
+
+        drugs_randomization_select.onchange = function() {
+            drugs_randomization = drugs_randomization_select.value;
+            drug_1st_level.style.display = "none";
+
+            if (drugs_randomization == 'ATC-Specific') {
+                drug_1st_level.style.display = "block";
+            }
+                drug_2nd_level.style.display = "none";
+        }
+
+        drug_1st_level_select.onchange = function() {
+            drug_1st_level_value = drug_1st_level_select.value;
+
+            if (drug_1st_level_value!='None') {
+                drug_2nd_level.style.display = "block";
+            }else{
+                drug_2nd_level.style.display = "none";
+            }
+
+            fetch('/synth_phr/drug_atc_levels?level_1=' + drug_1st_level_value).then(function(response) {
+                let option_html = '<option value=None>None</option>';
+
+                response.json().then(function(data) {
+                    for (let drug_level of data.drug_levels) {
+                        option_html += '<option value="' + drug_level.second_level_code + '">' + drug_level.second_level_name + '</option>'
+                    }
+
+                    drug_2nd_level_select.innerHTML = option_html;
+                });
+            });
+        }
+    </script>
+{% endblock %}

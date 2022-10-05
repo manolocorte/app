@@ -1,0 +1,2376 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.23)  23 FEB 2022 13:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**nihpo_api.tex
+(./nihpo_api.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-21> (./sphinxmanual.cls
+Document Class: sphinxmanual 2019/12/01 v2.3.0 Document class (Sphinx manual)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+LaTeX Info: Redefining \and on input line 35.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+2500 (decimal 9472)
+   defining Unicode char U+2502 (decimal 9474)
+   defining Unicode char U+2514 (decimal 9492)
+   defining Unicode char U+251C (decimal 9500)
+   defining Unicode char U+2572 (decimal 9586)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+<<t1.cmap>>)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen139
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks19
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks20
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/13 3.71 The Babel package
+\babel@savecnt=\count272
+\U@D=\dimen148
+\l@unhyphenated=\language87
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count273
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/tgtermes.sty
+Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/tgheros.sty
+Package: tgheros 2009/09/27 v1.2 TeX Gyre Heros as default sans serif family
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip52
+\mylen=\skip53
+\myhi=\skip54
+\px=\skip55
+\py=\skip56
+\pyy=\skip57
+\pxx=\skip58
+\c@AlphaCnt=\count274
+\c@AlphaDecCnt=\count275
+)
+(./sphinx.sty
+Package: sphinx 2021/01/27 v4.0.0 LaTeX package (Sphinx markup)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+\sphinxverbatimsep=\dimen149
+\sphinxverbatimborder=\dimen150
+\sphinxshadowsep=\dimen151
+\sphinxshadowsize=\dimen152
+\sphinxshadowrule=\dimen153
+\spx@notice@border=\dimen154
+
+(./sphinxoptionshyperref.sty
+File: sphinxoptionshyperref.sty 2021/01/27 hyperref
+) (./sphinxoptionsgeometry.sty
+File: sphinxoptionsgeometry.sty 2021/01/27 geometry
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count276
+\float@exts=\toks24
+\float@box=\box52
+\@float@everytoks=\toks25
+\@floatcapt=\box53
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen155
+\WF@size=\dimen156
+\c@WF@wrappedlines=\count277
+\WF@box=\box54
+\WF@everypar=\toks26
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count278
+\mult@box=\box55
+\multicol@leftmargin=\dimen157
+\c@unbalance=\count279
+\c@collectmore=\count280
+\doublecol@number=\count281
+\multicoltolerance=\count282
+\multicolpretolerance=\count283
+\full@width=\dimen158
+\page@free=\dimen159
+\premulticols=\dimen160
+\postmulticols=\dimen161
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box56
+\last@line=\box57
+\maxbalancingoverflow=\dimen162
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@firstbox=\box60
+\mult@gfirstbox=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\c@minrows=\count284
+\c@columnbadness=\count285
+\c@finalcolumnbadness=\count286
+\last@try=\dimen163
+\multicolovershoot=\dimen164
+\multicolundershoot=\dimen165
+\mult@nat@firstbox=\box98
+\colbreak@box=\box99
+\mc@col@check@num=\count287
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+)
+(./sphinxlatexgraphics.sty
+File: sphinxlatexgraphics.sty 2021/01/27 graphics
+\spx@image@maxheight=\dimen168
+\spx@image@box=\box100
+) (./sphinxlatexadmonitions.sty
+File: sphinxlatexadmonitions.sty 2021/01/27 admonitions
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip61
+\fb@frw=\dimen169
+\fb@frh=\dimen170
+\FrameRule=\dimen171
+\FrameSep=\dimen172
+))
+(./sphinxlatexliterals.sty
+File: sphinxlatexliterals.sty 2021/12/06 code-blocks and parsed literals
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
+\FV@CodeLineNo=\count288
+\FV@InFile=\read3
+\FV@TabBox=\box101
+\c@FancyVerbLine=\count289
+\FV@StepNumber=\count290
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 2021/01/29 v2.0g defines alltt environment
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\sphinxcontinuationbox=\box102
+\sphinxvisiblespacebox=\box103
+\sphinxVerbatim@TitleBox=\box104
+\sphinxVerbatim@ContentsBox=\box105
+\spx@scratchbox=\box106
+)
+(./sphinxlatexshadowbox.sty
+File: sphinxlatexshadowbox.sty 2021/01/27 sphinxShadowBox
+) (./sphinxlatexcontainers.sty
+File: sphinxlatexcontainers.sty 2021/05/03 containers
+)
+(./sphinxhighlight.sty
+Package: sphinxhighlight 2016/05/29 stylesheet for highlighting with pygments
+) (./sphinxlatextables.sty
+File: sphinxlatextables.sty 2021/01/27 tables
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box107
+\extrarowheight=\dimen174
+\NC@list=\toks27
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box108
+)
+\TY@count=\count291
+\TY@linewidth=\dimen175
+\tymin=\dimen176
+\tymax=\dimen177
+\TY@tablewidth=\dimen178
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count292
+\LTcapwidth=\dimen179
+\LT@head=\box109
+\LT@firsthead=\box110
+\LT@foot=\box111
+\LT@lastfoot=\box112
+\LT@gbox=\box113
+\LT@cols=\count293
+\LT@rows=\count294
+\c@LT@tables=\count295
+\c@LT@chunks=\count296
+\LT@p@ftn=\toks28
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box114
+\sift@deathcycles=\count297
+\@vwid@loff=\dimen180
+\@vwid@roff=\dimen181
+)
+\sphinx@TY@tablewidth=\dimen182
+)
+(./sphinxlatexnumfig.sty
+File: sphinxlatexnumfig.sty 2021/01/27 numbering
+) (./sphinxlatexlists.sty
+File: sphinxlatexlists.sty 2021/01/27 lists
+)
+\c@sphinxscope=\count298
+\c@sphinxexplicit=\count299
+ (./sphinxpackagefootnote.sty
+Package: sphinxpackagefootnote 2021/02/04 v1.1d footnotehyper adapted to sphinx
+ (Sphinx team)
+\FNH@notes=\box115
+\FNH@toks=\toks29
+\FNH@width=\dimen183
+) (./sphinxlatexindbibtoc.sty
+File: sphinxlatexindbibtoc.sty 2021/01/27 index, bib., toc
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+))
+(./sphinxlatexstylepage.sty
+File: sphinxlatexstylepage.sty 2021/01/27 page styling
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/parskip/parskip.sty
+Rollback for package 'parskip' requested -> version 'v1'.
+         This corresponds to the release introduced on 2001-04-09.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/parskip/parskip-2001-04-09.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
+))
+(./sphinxlatexstyleheadings.sty
+File: sphinxlatexstyleheadings.sty 2021/01/27 headings
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box116
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
+\ttl@plus=\dimen184
+\ttl@minus=\dimen185
+\ttl@toksa=\toks30
+\titlewidth=\dimen186
+\titlewidthlast=\dimen187
+\titlewidthfirst=\dimen188
+))
+(./sphinxlatexstyletext.sty
+File: sphinxlatexstyletext.sty 2021/12/06 text styling
+) (./sphinxlatexobjects.sty
+File: sphinxlatexobjects.sty 2021/12/05 documentation environments
+\py@argswidth=\skip79
+\lineblockindentation=\skip80
+\DUlineblockindent=\skip81
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count300
+\Gm@cntv=\count301
+\c@Gm@tempcnt=\count302
+\Gm@bindingoffset=\dimen189
+\Gm@wd@mp=\dimen190
+\Gm@odd@mp=\dimen191
+\Gm@even@mp=\dimen192
+\Gm@layoutwidth=\dimen193
+\Gm@layoutheight=\dimen194
+\Gm@layouthoffset=\dimen195
+\Gm@layoutvoffset=\dimen196
+\Gm@dimlist=\toks31
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen197
+\Hy@linkcounter=\count303
+\Hy@pagecounter=\count304
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count305
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4018.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count306
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen198
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count307
+\Field@Width=\dimen199
+\Fld@charsize=\dimen256
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count308
+\c@Item=\count309
+\c@Hfootnote=\count310
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count311
+\c@bookmark@seq@number=\count312
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip82
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+(./sphinxmessages.sty
+Package: sphinxmessages 2019/01/04 v2.0 Localized LaTeX macros (Sphinx team)
+)
+\@indexfile=\write4
+\openout4 = `nihpo_api.idx'.
+
+
+Writing index file nihpo_api.idx
+LaTeX Font Info:    Trying to load font information for T1+qtm on input line 70
+.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qtm.fd
+File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count313
+\l__pdf_internal_box=\box117
+)
+(./nihpo_api.aux)
+\openout1 = `nihpo_api.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count314
+\scratchdimen=\dimen257
+\scratchbox=\box118
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen258
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@literalblock=\count320
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=36.135pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 70.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count321
+)
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
+ (./nihpo_api.out) (./nihpo_api.out)
+\@outlinefile=\write5
+\openout5 = `nihpo_api.out'.
+
+Package hyperref Info: Option `pageanchor' set `false' on input line 73.
+<TrialTwin_Logo_200px_1.png, id=338, 200.75pt x 95.35625pt>
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 7
+3.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+File: TrialTwin_Logo_200px_1.png Graphic file (type png)
+<use TrialTwin_Logo_200px_1.png>
+Package pdftex.def Info: TrialTwin_Logo_200px_1.png  used on input line 73.
+(pdftex.def)             Requested size: 200.7495pt x 95.356pt.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 73
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Trial
+Twin_Logo_200px_1.png>] [2
+
+
+] (./nihpo_api.toc)
+\tf@toc=\write6
+\openout6 = `nihpo_api.toc'.
+
+ [1
+
+] [2
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 88.
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 9
+5.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
+File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
+) [1
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 
+1.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/ts1txtt.fd
+File: ts1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `TS1/txtt/b/n' in size <10> not available
+(Font)              Font shape `TS1/txtt/bx/n' tried instead on input line 1.
+ [2]
+LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 424.
+ [3]
+[4] [5] [6] [7]
+LaTeX Font Info:    Font shape `TS1/txtt/m/it' in size <10> not available
+(Font)              Font shape `TS1/txtt/m/sl' tried instead on input line 1.
+
+Underfull \hbox (badness 7397) in paragraph at lines 784--786
+[]\T1/txtt/bx/n/10 in_countries \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 List of tuples
+: (Integer, String) Example: (\TS1/txtt/m/sl/10 '\T1/txtt/m/sl/10 es, 100)\T1/q
+tm/m/n/10 )
+ []
+
+[8] [9] [10] [11] [12]
+Underfull \hbox (badness 6641) in paragraph at lines 1116--1120
+[]\T1/txtt/bx/n/10 in_gender \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 String :param in_
+number: Number of records\T1/qtm/m/n/10 ) ^^U Name
+ []
+
+[13]
+Underfull \hbox (badness 6641) in paragraph at lines 1244--1248
+[]\T1/txtt/bx/n/10 in_gender \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 String :param in_
+number: Number of records\T1/qtm/m/n/10 ) ^^U Name
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 1268--1272
+[]\T1/txtt/bx/n/10 in_gender \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 String :param in_
+number: Number of records\T1/qtm/m/n/10 ) ^^U Name
+ []
+
+[14] [15]
+Underfull \hbox (badness 7397) in paragraph at lines 1577--1579
+[]\T1/txtt/bx/n/10 in_countries \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 List of tuples
+: (Integer, String) Example: (\TS1/txtt/m/sl/10 '\T1/txtt/m/sl/10 es, 100)\T1/q
+tm/m/n/10 )
+ []
+
+
+Overfull \hbox (4.76373pt too wide) in paragraph at lines 1605--1605
+[]\T1/qtm/m/it/10 in_min_age\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (6.42374pt too wide) in paragraph at lines 1605--1605
+\T1/qtm/m/it/10 in_max_age\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (38.84375pt too wide) in paragraph at lines 1605--1605
+\T1/qtm/m/it/10 in_country_subjects\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (12.00871pt too wide) in paragraph at lines 1605--1605
+\T1/qtm/m/it/10 in_provinces\T1/txtt/m/n/10 )|  
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 1627--1629
+[]\T1/txtt/bx/n/10 in_country_subjects \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 List of
+ tuples: (Integer, String) Example:
+ []
+
+[17] [18] [19]
+Overfull \hbox (36.32881pt too wide) in paragraph at lines 2040--2040
+\T1/qtm/m/it/10 in_controlled_terminology\T1/txtt/m/n/10 )|  
+ []
+
+
+Overfull \hbox (5.34383pt too wide) in paragraph at lines 2078--2078
+\T1/qtm/m/it/10 in_dates_rules_dict\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (14.9538pt too wide) in paragraph at lines 2078--2078
+\T1/qtm/m/it/10 in_start_participation\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (11.05382pt too wide) in paragraph at lines 2078--2078
+\T1/qtm/m/it/10 in_end_participation\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (20.4938pt too wide) in paragraph at lines 2078--2078
+\T1/qtm/m/it/10 in_start_date_exposure\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (16.59383pt too wide) in paragraph at lines 2078--2078
+\T1/qtm/m/it/10 in_end_date_exposure\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (33.47383pt too wide) in paragraph at lines 2078--2078
+\T1/qtm/m/it/10 in_controlled_terminology\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (24.98383pt too wide) in paragraph at lines 2078--2078
+\T1/qtm/m/it/10 in_arms_elements_visits\T1/qtm/m/n/10 , 
+ []
+
+
+Overfull \hbox (3.25383pt too wide) in paragraph at lines 2078--2078
+\T1/qtm/m/it/10 in_visit_number=0\T1/qtm/m/n/10 , 
+ []
+
+[20] [21]
+Underfull \hbox (badness 7151) in paragraph at lines 2144--2146
+[]\T1/txtt/bx/n/10 in_controlled_terminology \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 D
+ict\T1/qtm/m/n/10 ) ^^U Al-low-able val-ues for fields whre Con-
+ []
+
+[22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 2432--2434
+[]\T1/qtm/m/n/10 Test func_nihpo_time_counter that counter time in a func-tion 
+su-ing it as dec-o-ra-tor
+ []
+
+[24] [25] [26] [27] [28] [29] [30]
+Overfull \vbox (127.56999pt too high) has occurred while \output is active []
+
+
+[31] [32]
+Overfull \vbox (475.56999pt too high) has occurred while \output is active []
+
+
+[33] [34] [35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 3905--3907
+[]\T1/qtm/m/n/10 Re-turns the code of the field `Item_NCI_Code' that matches th
+e `Item_Name' from the ta-ble
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 3978--3980
+[]\T1/txtt/bx/n/10 username \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 String (Default: \
+TS1/txtt/m/sl/10 ''\T1/txtt/m/sl/10 , if default: it creates a random
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3982--3984
+[]\T1/txtt/bx/n/10 password \T1/qtm/m/n/10 (\T1/txtt/m/sl/10 String (Default: \
+TS1/txtt/m/sl/10 ''\T1/txtt/m/sl/10 , if default: it creates a random
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4071--4073
+[]\T1/qtm/m/n/10 Cre-ates a ran-dom string of char-ac-ters of the re-quested le
+ngth (Source: [][]$https : / / pynative . com /
+ []
+
+[38] [39] [40]
+Chapter 2.
+[41
+
+] [42
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4375--4376
+[]\T1/txtt/m/n/10 CE_app.synth_phr.json_subject_creation\T1/qtm/m/n/10 ,
+ []
+
+
+Overfull \hbox (3.62183pt too wide) in paragraph at lines 4377--4378
+[]\T1/txtt/m/n/10 CE_app.synth_phr.sqlite_subject_creation\T1/qtm/m/n/10 ,
+ []
+
+
+Overfull \hbox (3.62183pt too wide) in paragraph at lines 4389--4390
+[]\T1/txtt/m/n/10 CE_app.synth_trial.trial_design_creation\T1/qtm/m/n/10 ,
+ []
+
+[43
+
+] (./nihpo_api.ind [44
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+[]\T1/txtt/m/n/10 api_condition() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule po
+r-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+[]\T1/txtt/m/n/10 api_geography() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule po
+r-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+[]\T1/txtt/m/n/10 api_lab_result() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule p
+or-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+[]\T1/txtt/m/n/10 api_procedure() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule po
+r-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+[]\T1/txtt/m/n/10 api_provider() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule por
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+[]\T1/txtt/m/n/10 arms_definition() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule 
+por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]\T1/txtt/m/n/10 check_login_fails() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_a
+pp.models.User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+[]\T1/txtt/m/n/10 check_tasks() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule por-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\T1/txtt/m/n/10 check_tasks() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule por-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+[]\T1/txtt/m/n/10 check_tasks() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule por-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[]\T1/txtt/m/n/10 code \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_trial.
+forms.TA_Element at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+[]\T1/txtt/m/n/10 controlled_terminology() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in m
+od-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[]\T1/txtt/m/n/10 country \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_per
+son.forms.Country
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[]\T1/txtt/m/n/10 country \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_phr
+.forms.Country at-
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 78--79
+[]\T1/txtt/m/n/10 create_folder() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.m
+odels.User method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+[]\T1/txtt/m/n/10 create_global_dashboards \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+[]\T1/txtt/m/n/10 create_subject_json() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-
+ule por-
+ []
+
+[45
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+[]\T1/txtt/m/n/10 create_subject_sqlite() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mo
+d-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+[]\T1/txtt/m/n/10 create_submission() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ul
+e por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[]\T1/txtt/m/n/10 create_submissions \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_ap
+p.models.Roles at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+[]\T1/txtt/m/n/10 create_synthperson() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-u
+le por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+[]\T1/txtt/m/n/10 create_synthphr() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule 
+por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+[]\T1/txtt/m/n/10 CreateSyntheticSubForm \T1/qtm/m/n/10 (\T1/qtm/m/it/10 class 
+in por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+[]\T1/txtt/m/n/10 CT_CSV_SEPARATOR \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+\T1/qtm/m/it/10 tal_app.synth_trial.constants.Constants at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+[]\T1/txtt/m/n/10 CT_DOMAIN_NAMES_CSV_SAS \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+\T1/qtm/m/it/10 tal_app.synth_trial.constants.Constants at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+[]\T1/txtt/m/n/10 CT_DOMAINS_INCLUSION_EXCLUSION_SUMMARY \T1/qtm/m/n/10 (\T1/qt
+m/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+\T1/qtm/m/it/10 tal_app.synth_trial.constants.Constants at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+[]\T1/txtt/m/n/10 CT_DOMAINS_SCHEDULE_FOR_ASSESSMENTS \T1/qtm/m/n/10 (\T1/qtm/m
+/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+\T1/qtm/m/it/10 tal_app.synth_trial.constants.Constants at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+[]\T1/txtt/m/n/10 CT_DOMAINS_TRIAL_DESIGN \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+\T1/qtm/m/it/10 tal_app.synth_trial.constants.Constants at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+[]\T1/txtt/m/n/10 CT_DOMAINS_VISITS \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+\T1/qtm/m/it/10 tal_app.synth_trial.constants.Constants at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+[]\T1/txtt/m/n/10 CT_FIELDS_INDEX \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+\T1/qtm/m/it/10 tal_app.synth_trial.constants.Constants at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]\T1/txtt/m/n/10 dashboards() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule por-
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 121--122
+[]\T1/txtt/m/n/10 delete_folder() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.m
+odels.User method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
+[]\T1/txtt/m/n/10 device() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_ph
+r.functions.Domains
+ []
+
+
+Overfull \hbox (70.6123pt too wide) in paragraph at lines 131--133
+[]\T1/txtt/m/n/10 download \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_tr
+ial.forms.SyntheticTrialArmsElementsVisits
+ []
+
+
+Overfull \hbox (85.9923pt too wide) in paragraph at lines 133--135
+[]\T1/txtt/m/n/10 download \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_tr
+ial.forms.SyntheticTrialVariablesNotControlled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+[]\T1/txtt/m/n/10 drug() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_phr.
+functions.Domains
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
+[]\T1/txtt/m/n/10 drug_atc_levels() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule 
+por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+[]\T1/txtt/m/n/10 drugs_atc_second_levels() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
+[]\T1/txtt/m/n/10 drugs_atc_top_levels() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Overfull \hbox (6.07234pt too wide) in paragraph at lines 147--149
+[]\T1/txtt/m/n/10 email \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.auth.forms.
+ResetPasswordRequestForm
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 150--151
+[]\T1/txtt/m/n/10 email \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.BaseM
+ainTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
+[]\T1/txtt/m/n/10 email_end \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+aseMainTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
+[]\T1/txtt/m/n/10 email_end \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+asePHRTestClass at-
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 159--160
+[]\T1/txtt/m/n/10 email_end \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+aseTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+[]\T1/txtt/m/n/10 email_end \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+aseTrialTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+[]\T1/txtt/m/n/10 email_length_end \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+\T1/qtm/m/it/10 tal_app.tests.BaseMainTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+[]\T1/txtt/m/n/10 email_length_end \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+\T1/qtm/m/it/10 tal_app.tests.BasePHRTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+[]\T1/txtt/m/n/10 email_length_end \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+\T1/qtm/m/it/10 tal_app.tests.BaseTrialTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
+[]\T1/txtt/m/n/10 email_length_end \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.
+tests.NihpoTestClass
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+[]\T1/txtt/m/n/10 email_length_start \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+\T1/qtm/m/it/10 tal_app.tests.BaseMainTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+[]\T1/txtt/m/n/10 email_length_start \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+\T1/qtm/m/it/10 tal_app.tests.BasePHRTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 177--179
+[]\T1/txtt/m/n/10 email_length_start \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_ap
+p.tests.BaseTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+[]\T1/txtt/m/n/10 email_length_start \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+\T1/qtm/m/it/10 tal_app.tests.BaseTrialTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
+[]\T1/txtt/m/n/10 email_start \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests
+.NihpoTestClass at-
+ []
+
+
+Overfull \hbox (29.10228pt too wide) in paragraph at lines 193--195
+[]\T1/txtt/m/n/10 exclusion \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_t
+rial.forms.SyntheticTrialTEForm
+ []
+
+
+Overfull \hbox (29.50226pt too wide) in paragraph at lines 195--197
+[]\T1/txtt/m/n/10 exclusion \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_t
+rial.forms.SyntheticTrialTVForm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
+[]\T1/txtt/m/n/10 first_name \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.
+BaseMainTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+[]\T1/txtt/m/n/10 first_name \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.
+BasePHRTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
+[]\T1/txtt/m/n/10 first_name \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.
+BaseTrialTestClass
+ []
+
+
+Overfull \hbox (2.1523pt too wide) in paragraph at lines 214--216
+[]\T1/txtt/m/n/10 first_name() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synt
+h_phr.functions.Domains
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+[]\T1/txtt/m/n/10 first_name_length \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+\T1/qtm/m/it/10 tal_app.tests.BaseMainTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+[]\T1/txtt/m/n/10 first_name_length \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+\T1/qtm/m/it/10 tal_app.tests.BasePHRTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
+[]\T1/txtt/m/n/10 first_name_length \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
+\T1/qtm/m/it/10 tal_app.tests.BaseTrialTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+[]\T1/txtt/m/n/10 first_name_length \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app
+.tests.NihpoTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
+[]\T1/txtt/m/n/10 func_nihpo_add_filters_to_query() \T1/qtm/m/n/10 (\T1/qtm/m/i
+t/10 in mod-ule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
+[]\T1/txtt/m/n/10 func_nihpo_calculate_age() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in
+ mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+[]\T1/txtt/m/n/10 func_nihpo_check_code() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mo
+d-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
+[]\T1/txtt/m/n/10 func_nihpo_convert_to_sas() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 i
+n mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+[]\T1/txtt/m/n/10 func_nihpo_create_trial_design_domain_row()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--239
+[]\T1/txtt/m/n/10 func_nihpo_create_trial_random_domain_row()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+[]\T1/txtt/m/n/10 func_nihpo_person_creation() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 
+in mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+[]\T1/txtt/m/n/10 func_nihpo_random_alphaNumeric_string() \T1/qtm/m/n/10 (\T1/q
+tm/m/it/10 in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
+[]\T1/txtt/m/n/10 func_nihpo_random_date() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in m
+od-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
+[]\T1/txtt/m/n/10 func_nihpo_random_date_between_dates() \T1/qtm/m/n/10 (\T1/qt
+m/m/it/10 in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+[]\T1/txtt/m/n/10 func_nihpo_randomize() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod
+-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+[]\T1/txtt/m/n/10 func_nihpo_remove_old_files() \T1/qtm/m/n/10 (\T1/qtm/m/it/10
+ in mod-ule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+[]\T1/txtt/m/n/10 func_nihpo_subjects_creation_in_provinces()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+\T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
+[]\T1/txtt/m/n/10 func_nihpo_synth_data_random_value_CTCAE()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
+[]\T1/txtt/m/n/10 func_nihpo_time_counter() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in 
+mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
+[]\T1/txtt/m/n/10 func_nihpo_update_sqlite3_in_superset() \T1/qtm/m/n/10 (\T1/q
+tm/m/it/10 in
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 275--277
+[]\T1/txtt/m/n/10 get_confirm_email_token() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
+[]\T1/txtt/m/n/10 get_current_permissions() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in 
+mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
+[]\T1/txtt/m/n/10 get_reset_password_token() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 po
+r-
+ []
+
+
+Overfull \hbox (29.10228pt too wide) in paragraph at lines 296--298
+[]\T1/txtt/m/n/10 inclusion \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_t
+rial.forms.SyntheticTrialTEForm
+ []
+
+
+Overfull \hbox (29.50226pt too wide) in paragraph at lines 298--300
+[]\T1/txtt/m/n/10 inclusion \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_t
+rial.forms.SyntheticTrialTVForm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+[]\T1/txtt/m/n/10 internal_error() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule p
+or-
+ []
+
+
+Overfull \hbox (2.1523pt too wide) in paragraph at lines 306--308
+[]\T1/txtt/m/n/10 lab_result() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synt
+h_phr.functions.Domains
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+[]\T1/txtt/m/n/10 last_name \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+aseMainTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
+[]\T1/txtt/m/n/10 last_name \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+asePHRTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--315
+[]\T1/txtt/m/n/10 last_name \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+aseTrialTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+[]\T1/txtt/m/n/10 last_name_length \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+\T1/qtm/m/it/10 tal_app.tests.BaseMainTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+[]\T1/txtt/m/n/10 last_name_length \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+\T1/qtm/m/it/10 tal_app.tests.BasePHRTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--324
+[]\T1/txtt/m/n/10 last_name_length \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--324
+\T1/qtm/m/it/10 tal_app.tests.BaseTrialTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
+[]\T1/txtt/m/n/10 last_name_length \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.
+tests.NihpoTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+[]\T1/txtt/m/n/10 license_for_use() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule 
+por-
+ []
+
+
+Overfull \hbox (7.40228pt too wide) in paragraph at lines 341--343
+[]\T1/txtt/m/n/10 middle_name() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.syn
+th_phr.functions.Domains
+ []
+
+[48]
+Overfull \hbox (13.12186pt too wide) in paragraph at lines 378--379
+[]| \T1/txtt/m/n/10 CE_app.synth_phr.json_subject_creation\T1/qtm/m/n/10 ,
+ []
+
+
+Overfull \hbox (23.62183pt too wide) in paragraph at lines 380--381
+[]| \T1/txtt/m/n/10 CE_app.synth_phr.sqlite_subject_creation\T1/qtm/m/n/10 
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+[]| \T1/txtt/m/n/10 CE_app.synth_phr.subjects_creation\T1/qtm/m/n/10 ,
+ []
+
+
+Overfull \hbox (23.62183pt too wide) in paragraph at lines 392--393
+[]| \T1/txtt/m/n/10 CE_app.synth_trial.trial_design_creation\T1/qtm/m/n/10 
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
+[]\T1/txtt/m/n/10 not_found_error() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule 
+por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
+[]\T1/txtt/m/n/10 number \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_pers
+on.forms.Country at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+[]\T1/txtt/m/n/10 organization_name \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app
+.models.User at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+[]\T1/txtt/m/n/10 pass_task_person() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule
+ por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
+[]\T1/txtt/m/n/10 pass_task_trial() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule 
+por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--423
+[]\T1/txtt/m/n/10 password \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.auth.for
+ms.ResetPasswordForm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+[]\T1/txtt/m/n/10 password \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.Ba
+seMainTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+[]\T1/txtt/m/n/10 password \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.Ba
+sePHRTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
+[]\T1/txtt/m/n/10 password \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.Ba
+seTrialTestClass at-
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 442--443
+[]\T1/txtt/m/n/10 passwords \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+aseTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+[49]
+Overfull \hbox (1.12183pt too wide) in paragraph at lines 504--505
+[]\T1/txtt/m/n/10 CE_app.synth_phr.sqlite_subject_creation 
+ []
+
+
+Overfull \hbox (1.12183pt too wide) in paragraph at lines 528--529
+[]\T1/txtt/m/n/10 CE_app.synth_trial.trial_design_creation 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
+[]\T1/txtt/m/n/10 provider() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_
+phr.functions.Domains
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
+[]\T1/txtt/m/n/10 register_request() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule
+ por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
+[]\T1/txtt/m/n/10 remember_me \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.auth.
+forms.LoginForm at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--559
+[]\T1/txtt/m/n/10 required_permissions() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod
+-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--562
+[]\T1/txtt/m/n/10 reset_password_request() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in m
+od-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--565
+[]\T1/txtt/m/n/10 ResetPasswordRequestForm \T1/qtm/m/n/10 (\T1/qtm/m/it/10 clas
+s in por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+[]\T1/txtt/m/n/10 select_countries() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule
+ por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
+[]\T1/txtt/m/n/10 select_countries() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule
+ por-
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 576--578
+[]\T1/txtt/m/n/10 select_countries_form_generator() \T1/qtm/m/n/10 (\T1/qtm/m/i
+t/10 in mod-ule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--580
+[]\T1/txtt/m/n/10 select_countries_form_generator() \T1/qtm/m/n/10 (\T1/qtm/m/i
+t/10 in mod-ule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--583
+[]\T1/txtt/m/n/10 send_confirm_register() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mo
+d-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--588
+[]\T1/txtt/m/n/10 send_password_reset_email() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 i
+n mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--592
+[]\T1/txtt/m/n/10 send_phr_file_downloaded() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in
+ mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
+[]\T1/txtt/m/n/10 send_podr_confirm_register() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 
+in mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
+[]\T1/txtt/m/n/10 send_podr_credentials() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mo
+d-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--598
+[]\T1/txtt/m/n/10 send_trial_file_downloaded() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 
+in mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--606
+[]\T1/txtt/m/n/10 setUpClass() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.test
+s.BaseMainTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--608
+[]\T1/txtt/m/n/10 setUpClass() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.test
+s.BasePHRTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--610
+[]\T1/txtt/m/n/10 setUpClass() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.test
+s.BaseTestClass class
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
+[]\T1/txtt/m/n/10 setUpClass() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.test
+s.BaseTrialTestClass
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 612--614
+[]\T1/txtt/m/n/10 setUpClass() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.test
+s.NihpoTestClass class
+ []
+
+
+Overfull \hbox (11.32233pt too wide) in paragraph at lines 617--619
+[]\T1/txtt/m/n/10 submit \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.auth.forms
+.ResetPasswordRequestForm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
+[]\T1/txtt/m/n/10 submit \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.main.forms
+.DisclaimerForm at-
+ []
+
+
+Overfull \hbox (20.95235pt too wide) in paragraph at lines 622--624
+[]\T1/txtt/m/n/10 submit \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_sub.
+forms.CreateSyntheticSubForm
+ []
+
+
+Overfull \hbox (13.35233pt too wide) in paragraph at lines 624--626
+[]\T1/txtt/m/n/10 submit \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_tria
+l.forms.SyntheticTrialTEForm
+ []
+
+
+Overfull \hbox (13.7523pt too wide) in paragraph at lines 626--628
+[]\T1/txtt/m/n/10 submit \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_tria
+l.forms.SyntheticTrialTVForm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--630
+[]\T1/txtt/m/n/10 synthetic_creates_trial_form_generator() \T1/qtm/m/n/10 (\T1/
+qtm/m/it/10 in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--632
+[]\T1/txtt/m/n/10 synthetic_person_form_generator() \T1/qtm/m/n/10 (\T1/qtm/m/i
+t/10 in mod-ule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--634
+[]\T1/txtt/m/n/10 synthetic_person_form_generator() \T1/qtm/m/n/10 (\T1/qtm/m/i
+t/10 in mod-ule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--642
+[]\T1/txtt/m/n/10 synthetic_trial_form_generator() \T1/qtm/m/n/10 (\T1/qtm/m/it
+/10 in mod-ule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 642--644
+[]\T1/txtt/m/n/10 synthetic_trial_output() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in m
+od-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--648
+[]\T1/txtt/m/n/10 SyntheticTrialTEForm \T1/qtm/m/n/10 (\T1/qtm/m/it/10 class in
+ por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--650
+[]\T1/txtt/m/n/10 SyntheticTrialTVForm \T1/qtm/m/n/10 (\T1/qtm/m/it/10 class in
+ por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--664
+[]\T1/txtt/m/n/10 tearDown() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.
+BaseMainTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
+[]\T1/txtt/m/n/10 tearDown() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.
+BasePHRTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--676
+[]\T1/txtt/m/n/10 tearDownClass() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.t
+ests.NihpoTestClass
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 676--678
+[]\T1/txtt/m/n/10 test_condition() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 676--678
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 678--680
+[]\T1/txtt/m/n/10 test_create_delete_folder() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 p
+or-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 678--680
+\T1/qtm/m/it/10 tal_app.tests.test_user.UserTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--682
+[]\T1/txtt/m/n/10 test_create_files() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--682
+\T1/qtm/m/it/10 tal_app.tests.test_user.UserTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--686
+[]\T1/txtt/m/n/10 test_drug() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests
+.test_phr.PHRTestCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--688
+[]\T1/txtt/m/n/10 test_func_nihpo_convert_to_sas() \T1/qtm/m/n/10 (\T1/qtm/m/it
+/10 por-
+ []
+
+
+Overfull \hbox (3.63246pt too wide) in paragraph at lines 686--688
+\T1/qtm/m/it/10 tal_app.tests.test_nihpo_functions.TrialTestCase
+ []
+
+
+Overfull \hbox (22.12177pt too wide) in paragraph at lines 688--690
+[]\T1/txtt/m/n/10 test_func_nihpo_create_trial_design_domain_row()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 688--690
+\T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.test_trial.TrialTestCase
+ []
+
+
+Overfull \hbox (22.12177pt too wide) in paragraph at lines 690--692
+[]\T1/txtt/m/n/10 test_func_nihpo_create_trial_random_domain_row()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
+\T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.test_trial.TrialTestCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
+[]\T1/txtt/m/n/10 test_func_nihpo_create_TS_domain() \T1/qtm/m/n/10 (\T1/qtm/m/
+it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
+\T1/qtm/m/it/10 tal_app.tests.test_trial.TrialTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--696
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Overfull \hbox (37.87172pt too wide) in paragraph at lines 696--698
+[]\T1/txtt/m/n/10 test_func_nihpo_generate_trial_design_from_sqlite()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--698
+\T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.test_trial.TrialTestCase
+ []
+
+
+Overfull \hbox (3.63246pt too wide) in paragraph at lines 698--700
+\T1/qtm/m/it/10 tal_app.tests.test_nihpo_functions.TrialTestCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
+[]\T1/txtt/m/n/10 test_func_nihpo_json_file() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 p
+or-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Overfull \hbox (1.12183pt too wide) in paragraph at lines 702--704
+[]\T1/txtt/m/n/10 test_func_nihpo_random_alphaNumeric_string()
+ []
+
+
+Overfull \hbox (20.95245pt too wide) in paragraph at lines 702--704
+\T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.test_nihpo_functions.TrialTes
+tCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 704--706
+[]\T1/txtt/m/n/10 test_func_nihpo_random_date() \T1/qtm/m/n/10 (\T1/qtm/m/it/10
+ por-
+ []
+
+
+Overfull \hbox (3.63246pt too wide) in paragraph at lines 704--706
+\T1/qtm/m/it/10 tal_app.tests.test_nihpo_functions.TrialTestCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
+[]\T1/txtt/m/n/10 test_func_nihpo_random_date_between_dates()
+ []
+
+
+Overfull \hbox (20.95245pt too wide) in paragraph at lines 706--708
+\T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.test_nihpo_functions.TrialTes
+tCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--710
+[]\T1/txtt/m/n/10 test_func_nihpo_random_date_birth() \T1/qtm/m/n/10 (\T1/qtm/m
+/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--710
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--712
+[]\T1/txtt/m/n/10 test_func_nihpo_randomize() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 p
+or-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--712
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 712--714
+[]\T1/txtt/m/n/10 test_func_nihpo_subjects_creation() \T1/qtm/m/n/10 (\T1/qtm/m
+/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 712--714
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 714--716
+[]\T1/txtt/m/n/10 test_func_nihpo_synth_data_random_value()
+ []
+
+
+Overfull \hbox (20.95245pt too wide) in paragraph at lines 714--716
+\T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.test_nihpo_functions.TrialTes
+tCase
+ []
+
+
+Overfull \hbox (16.87178pt too wide) in paragraph at lines 716--718
+[]\T1/txtt/m/n/10 test_func_nihpo_synth_data_random_value_CTCAE()
+ []
+
+
+Overfull \hbox (20.95245pt too wide) in paragraph at lines 716--718
+\T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.test_nihpo_functions.TrialTes
+tCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--720
+[]\T1/txtt/m/n/10 test_func_nihpo_time_counter() \T1/qtm/m/n/10 (\T1/qtm/m/it/1
+0 por-
+ []
+
+
+Overfull \hbox (3.63246pt too wide) in paragraph at lines 718--720
+\T1/qtm/m/it/10 tal_app.tests.test_nihpo_functions.TrialTestCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 720--722
+[]\T1/txtt/m/n/10 test_geography() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 720--722
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--724
+[]\T1/txtt/m/n/10 test_get_confirm_email_token() \T1/qtm/m/n/10 (\T1/qtm/m/it/1
+0 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--724
+\T1/qtm/m/it/10 tal_app.tests.test_user.UserTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--726
+[]\T1/txtt/m/n/10 test_get_reset_password_token() \T1/qtm/m/n/10 (\T1/qtm/m/it/
+10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--726
+\T1/qtm/m/it/10 tal_app.tests.test_user.UserTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Overfull \hbox (2.7223pt too wide) in paragraph at lines 726--728
+[]\T1/txtt/m/n/10 test_index() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.test
+s.test_main.MainTestCase
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
+[]\T1/txtt/m/n/10 test_lab_result() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--732
+[]\T1/txtt/m/n/10 test_login_fails() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--732
+\T1/qtm/m/it/10 tal_app.tests.test_user.UserTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--734
+[]\T1/txtt/m/n/10 test_no_login_pages() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--736
+[]\T1/txtt/m/n/10 test_not_redirect_to_login() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 
+por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--739
+[]\T1/txtt/m/n/10 test_password_hashing() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--739
+\T1/qtm/m/it/10 tal_app.tests.test_user.UserTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--741
+[]\T1/txtt/m/n/10 test_phr_page() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--741
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 741--743
+[]\T1/txtt/m/n/10 test_procedure() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 741--743
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--745
+[]\T1/txtt/m/n/10 test_provider() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--745
+\T1/qtm/m/it/10 tal_app.tests.test_phr.PHRTestCase method\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--747
+[]\T1/txtt/m/n/10 test_redirect_to_login() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 751--753
+[]\T1/txtt/m/n/10 trial_output() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule por
+-
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 753--755
+[]\T1/txtt/m/n/10 trial_summary_parameters() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in
+ mod-ule por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--757
+[]\T1/txtt/m/n/10 TrialTestCase \T1/qtm/m/n/10 (\T1/qtm/m/it/10 class in por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--760
+[]\T1/txtt/m/n/10 try_permission() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 in mod-ule p
+or-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
+[]\T1/txtt/m/n/10 username \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.Ba
+seMainTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+[]\T1/txtt/m/n/10 username \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.Ba
+sePHRTestClass at-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 774--776
+[]\T1/txtt/m/n/10 username \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.Ba
+seTrialTestClass at-
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 789--790
+[]\T1/txtt/m/n/10 usernames \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.tests.B
+aseTestClass at-tribute\T1/qtm/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--797
+[]\T1/txtt/m/n/10 validate_password() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--797
+\T1/qtm/m/it/10 tal_app.auth.forms.ResetPasswordForm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 797--799
+[]\T1/txtt/m/n/10 verify_confirm_email_token() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 
+por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--801
+[]\T1/txtt/m/n/10 verify_reset_password_token() \T1/qtm/m/n/10 (\T1/qtm/m/it/10
+ por-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 801--803
+[]\T1/txtt/m/n/10 vital() \T1/qtm/m/n/10 (\T1/qtm/m/it/10 por-tal_app.synth_phr
+.functions.Domains
+ []
+
+[53
+
+]) (./nihpo_api.aux)
+Package rerunfilecheck Info: File `nihpo_api.out' has not changed.
+(rerunfilecheck)             Checksum: 6FDC027EADBDDD0E3B9D01D03E4FFF11;16112.
+ ) 
+Here is how much of TeX's memory you used:
+ 15631 strings out of 478278
+ 269970 string characters out of 5846547
+ 696724 words of memory out of 5000000
+ 32964 multiletter control sequences out of 15000+600000
+ 523924 words of font info for 74 fonts, out of 8000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 70i,12n,76p,49425b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/l
+ocal/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/tex
+live/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/tex-gyre/qhvbi.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/tex-gyre/qtmb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/tex-gyre/qtmr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-
+gyre/qtmri.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/t
+1xbtt.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/t1xtt.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/tcxbtt.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on nihpo_api.pdf (57 pages, 329525 bytes).
+PDF statistics:
+ 1677 PDF objects out of 1728 (max. 8388607)
+ 1580 compressed objects within 16 object streams
+ 504 named destinations out of 1000 (max. 500000)
+ 690 words of extra memory for PDF output out of 10000 (max. 10000000)
+

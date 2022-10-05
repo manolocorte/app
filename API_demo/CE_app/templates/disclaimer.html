@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+	<div class="form-wrapper">
+		<h1 class="title">Disclaimer</h1>
+		<br>
+		<p>By using this system, and the files generated herein, you agree to the following Terms of Use:</p>
+		<ol>
+			<li>The data provided by this system ("the Data"):
+				<ul>
+					<li>is not guaranteed to be accurate</li>
+					<li>may not be the latest version available from the original sources</li>
+				</ul>
+			</li>
+			<li>The Data should never be used for medical decision-making.</li>
+		</ol>
+		<br>
+		<p>Please send us any comments or suggestions for improvement you may have: Jose.Lacal@NIHPO.com</p>
+
+		<form method="POST" action="{{ url_for('main.disclaimer') }}">
+			{{ form.hidden_tag() }}
+	  		{{ form.submit }}
+	  </form>
+	</div>
+{% endblock %}

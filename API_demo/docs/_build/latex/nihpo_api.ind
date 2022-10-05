@@ -1,0 +1,804 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter A
+  \item \spxentry{aboutus()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{api\_condition()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{15}
+  \item \spxentry{api\_device()}\spxextra{in module portal\_app.synth\_phr.routes}, \hyperpage{15}
+  \item \spxentry{api\_drug()}\spxextra{in module portal\_app.synth\_phr.routes}, \hyperpage{15}
+  \item \spxentry{api\_geography()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{15}
+  \item \spxentry{api\_home()}\spxextra{in module portal\_app.synth\_phr.routes}, \hyperpage{15}
+  \item \spxentry{API\_key}\spxextra{portal\_app.models.User attribute}, \hyperpage{36}
+  \item \spxentry{api\_lab\_result()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{16}
+  \item \spxentry{API\_NIHPO}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{api\_person()}\spxextra{in module portal\_app.synth\_phr.routes}, \hyperpage{16}
+  \item \spxentry{api\_procedure()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{16}
+  \item \spxentry{api\_provider()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{16}
+  \item \spxentry{api\_vital()}\spxextra{in module portal\_app.synth\_phr.routes}, \hyperpage{16}
+  \item \spxentry{arms\_definition()}\spxextra{in module portal\_app.synth\_trial.routes}, 
+		\hyperpage{22}
+
+  \indexspace
+  \bigletter B
+  \item \spxentry{BaseMainTestClass}\spxextra{class in portal\_app.tests}, \hyperpage{27}
+  \item \spxentry{BasePHRTestClass}\spxextra{class in portal\_app.tests}, \hyperpage{27}
+  \item \spxentry{BaseTestClass}\spxextra{class in portal\_app.tests}, \hyperpage{28}
+  \item \spxentry{BaseTrialTestClass}\spxextra{class in portal\_app.tests}, \hyperpage{32}
+  \item \spxentry{before\_request()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+
+  \indexspace
+  \bigletter C
+  \item \spxentry{change}\spxextra{portal\_app.models.Logs attribute}, \hyperpage{36}
+  \item \spxentry{check\_login\_fails()}\spxextra{portal\_app.models.User method}, \hyperpage{36}
+  \item \spxentry{check\_password()}\spxextra{portal\_app.models.User method}, \hyperpage{36}
+  \item \spxentry{check\_tasks()}\spxextra{in module portal\_app.synth\_person.routes}, 
+		\hyperpage{8}
+  \item \spxentry{check\_tasks()}\spxextra{in module portal\_app.synth\_phr.routes}, \hyperpage{16}
+  \item \spxentry{check\_tasks()}\spxextra{in module portal\_app.synth\_trial.routes}, 
+		\hyperpage{22}
+  \item \spxentry{code}\spxextra{portal\_app.synth\_trial.forms.TA\_Arm attribute}, \hyperpage{19}
+  \item \spxentry{code}\spxextra{portal\_app.synth\_trial.forms.TA\_Element attribute}, 
+		\hyperpage{19}
+  \item \spxentry{community()}\spxextra{in module portal\_app.auth.routes}, \hyperpage{3}
+  \item \spxentry{condition()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{12}
+  \item \spxentry{config}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{config.default}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{config.develop}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{config.local}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{config.prod}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{config.testing}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{confirm\_email()}\spxextra{in module portal\_app.auth.routes}, \hyperpage{3}
+  \item \spxentry{Constants}\spxextra{class in portal\_app.synth\_trial.constants}, \hyperpage{18}
+  \item \spxentry{contactus()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{controlled\_terminology()}\spxextra{in module portal\_app.synth\_trial.routes}, 
+		\hyperpage{22}
+  \item \spxentry{Country}\spxextra{class in portal\_app.synth\_person.forms}, \hyperpage{5}
+  \item \spxentry{Country}\spxextra{class in portal\_app.synth\_phr.forms}, \hyperpage{9}
+  \item \spxentry{country}\spxextra{portal\_app.models.User attribute}, \hyperpage{36}
+  \item \spxentry{country}\spxextra{portal\_app.synth\_person.forms.Country attribute}, 
+		\hyperpage{6}
+  \item \spxentry{country}\spxextra{portal\_app.synth\_phr.forms.Country attribute}, \hyperpage{10}
+  \item \spxentry{create\_app()}\spxextra{in module portal\_app}, \hyperpage{40}
+  \item \spxentry{create\_folder()}\spxextra{portal\_app.models.User method}, \hyperpage{37}
+  \item \spxentry{create\_global\_dashboards}\spxextra{portal\_app.models.Roles attribute}, 
+		\hyperpage{36}
+  \item \spxentry{create\_subject\_json()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{16}
+  \item \spxentry{create\_subject\_sqlite()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{16}
+  \item \spxentry{create\_submission()}\spxextra{in module portal\_app.synth\_trial.routes}, 
+		\hyperpage{22}
+  \item \spxentry{create\_submissions}\spxextra{portal\_app.models.Roles attribute}, \hyperpage{36}
+  \item \spxentry{create\_synthperson()}\spxextra{in module portal\_app.synth\_person.routes}, 
+		\hyperpage{8}
+  \item \spxentry{create\_synthphr()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{16}
+  \item \spxentry{created\_at}\spxextra{portal\_app.models.Files attribute}, \hyperpage{36}
+  \item \spxentry{created\_at}\spxextra{portal\_app.models.Logs attribute}, \hyperpage{36}
+  \item \spxentry{CreateSyntheticSubForm}\spxextra{class in portal\_app.synth\_sub.forms}, 
+		\hyperpage{18}
+  \item \spxentry{CT\_COUNTRIES}\spxextra{portal\_app.synth\_person.forms.Country attribute}, 
+		\hyperpage{5}
+  \item \spxentry{CT\_COUNTRIES}\spxextra{portal\_app.synth\_phr.forms.Country attribute}, 
+		\hyperpage{9}
+  \item \spxentry{CT\_CSV\_SEPARATOR}\spxextra{portal\_app.synth\_trial.constants.Constants attribute}, 
+		\hyperpage{18}
+  \item \spxentry{CT\_DOMAIN\_NAMES\_CSV\_SAS}\spxextra{portal\_app.synth\_trial.constants.Constants attribute}, 
+		\hyperpage{18}
+  \item \spxentry{CT\_DOMAINS\_INCLUSION\_EXCLUSION\_SUMMARY}\spxextra{portal\_app.synth\_trial.constants.Constants attribute}, 
+		\hyperpage{18}
+  \item \spxentry{CT\_DOMAINS\_SCHEDULE\_FOR\_ASSESSMENTS}\spxextra{portal\_app.synth\_trial.constants.Constants attribute}, 
+		\hyperpage{18}
+  \item \spxentry{CT\_DOMAINS\_TRIAL\_DESIGN}\spxextra{portal\_app.synth\_trial.constants.Constants attribute}, 
+		\hyperpage{18}
+  \item \spxentry{CT\_DOMAINS\_VISITS}\spxextra{portal\_app.synth\_trial.constants.Constants attribute}, 
+		\hyperpage{18}
+  \item \spxentry{CT\_FIELDS\_INDEX}\spxextra{portal\_app.synth\_trial.constants.Constants attribute}, 
+		\hyperpage{18}
+  \item \spxentry{CT\_RANDOMIZE\_PROVIDER}\spxextra{in module config.default}, \hyperpage{1}
+
+  \indexspace
+  \bigletter D
+  \item \spxentry{dashboards()}\spxextra{in module portal\_app.synth\_trial.routes}, \hyperpage{22}
+  \item \spxentry{data}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, \hyperpage{32}
+  \item \spxentry{delete\_emails()}\spxextra{in module portal\_app.auth.routes}, \hyperpage{3}
+  \item \spxentry{delete\_folder()}\spxextra{portal\_app.models.User method}, \hyperpage{37}
+  \item \spxentry{description}\spxextra{portal\_app.synth\_trial.forms.TA\_Arm attribute}, 
+		\hyperpage{19}
+  \item \spxentry{description}\spxextra{portal\_app.synth\_trial.forms.TA\_Element attribute}, 
+		\hyperpage{19}
+  \item \spxentry{device()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{12}
+  \item \spxentry{disclaimer()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{DisclaimerForm}\spxextra{class in portal\_app.main.forms}, \hyperpage{4}
+  \item \spxentry{Domains}\spxextra{class in portal\_app.synth\_phr.functions}, \hyperpage{12}
+  \item \spxentry{download}\spxextra{portal\_app.synth\_trial.forms.SyntheticTrialArmsElementsVisits attribute}, 
+		\hyperpage{19}
+  \item \spxentry{download}\spxextra{portal\_app.synth\_trial.forms.SyntheticTrialVariablesNotControlled attribute}, 
+		\hyperpage{19}
+  \item \spxentry{drug()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, \hyperpage{12}
+  \item \spxentry{drug\_atc\_levels()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{16}
+  \item \spxentry{drugs\_atc\_second\_levels()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{13}
+  \item \spxentry{drugs\_atc\_top\_levels()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{13}
+
+  \indexspace
+  \bigletter E
+  \item \spxentry{edit\_dashboards}\spxextra{portal\_app.models.Roles attribute}, \hyperpage{36}
+  \item \spxentry{edit\_records}\spxextra{portal\_app.models.Roles attribute}, \hyperpage{36}
+  \item \spxentry{email}\spxextra{portal\_app.auth.forms.ResetPasswordRequestForm attribute}, 
+		\hyperpage{3}
+  \item \spxentry{email}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{email}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, \hyperpage{27}
+  \item \spxentry{email}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, \hyperpage{27}
+  \item \spxentry{email}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{28}
+  \item \spxentry{email}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, \hyperpage{34}
+  \item \spxentry{email}\spxextra{portal\_app.tests.NihpoTestClass attribute}, \hyperpage{34}
+  \item \spxentry{email\_end}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{email\_end}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{email\_end}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{28}
+  \item \spxentry{email\_end}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{email\_end}\spxextra{portal\_app.tests.NihpoTestClass attribute}, \hyperpage{34}
+  \item \spxentry{email\_length\_end}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{email\_length\_end}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{email\_length\_end}\spxextra{portal\_app.tests.BaseTestClass attribute}, 
+		\hyperpage{28}
+  \item \spxentry{email\_length\_end}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{email\_length\_end}\spxextra{portal\_app.tests.NihpoTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{email\_length\_start}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{email\_length\_start}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{email\_length\_start}\spxextra{portal\_app.tests.BaseTestClass attribute}, 
+		\hyperpage{28}
+  \item \spxentry{email\_length\_start}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{email\_length\_start}\spxextra{portal\_app.tests.NihpoTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{email\_start}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{email\_start}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{email\_start}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{28}
+  \item \spxentry{email\_start}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{email\_start}\spxextra{portal\_app.tests.NihpoTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{emails}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{28}
+  \item \spxentry{exclusion}\spxextra{portal\_app.synth\_trial.forms.SyntheticTrialTEForm attribute}, 
+		\hyperpage{19}
+  \item \spxentry{exclusion}\spxextra{portal\_app.synth\_trial.forms.SyntheticTrialTVForm attribute}, 
+		\hyperpage{19}
+
+  \indexspace
+  \bigletter F
+  \item \spxentry{file\_name}\spxextra{portal\_app.models.Files attribute}, \hyperpage{36}
+  \item \spxentry{file\_name}\spxextra{portal\_app.models.Logs attribute}, \hyperpage{36}
+  \item \spxentry{file\_status}\spxextra{portal\_app.models.Files attribute}, \hyperpage{36}
+  \item \spxentry{file\_type}\spxextra{portal\_app.models.Files attribute}, \hyperpage{36}
+  \item \spxentry{Files}\spxextra{class in portal\_app.models}, \hyperpage{36}
+  \item \spxentry{files}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{first\_name}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{first\_name}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{first\_name}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{first\_name}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{first\_name}\spxextra{portal\_app.tests.NihpoTestClass attribute}, \hyperpage{34}
+  \item \spxentry{first\_name()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{13}
+  \item \spxentry{first\_name\_length}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{first\_name\_length}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{28}
+  \item \spxentry{first\_name\_length}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{first\_name\_length}\spxextra{portal\_app.tests.NihpoTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{folder\_name}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{func\_nihpo\_add\_filters\_to\_query()}\spxextra{in module portal\_app.synth\_phr.functions}, 
+		\hyperpage{15}
+  \item \spxentry{func\_nihpo\_calculate\_age()}\spxextra{in module portal\_app.synth\_phr.synth\_phr\_func}, 
+		\hyperpage{17}
+  \item \spxentry{func\_nihpo\_check\_code()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{37}
+  \item \spxentry{func\_nihpo\_convert\_to\_sas()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{37}
+  \item \spxentry{func\_nihpo\_create\_podr\_user()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{38}
+  \item \spxentry{func\_nihpo\_create\_trial\_design\_domain\_row()}\spxextra{in module portal\_app.synth\_trial.functions}, 
+		\hyperpage{20}
+  \item \spxentry{func\_nihpo\_create\_trial\_random\_domain\_row()}\spxextra{in module portal\_app.synth\_trial.functions}, 
+		\hyperpage{20}
+  \item \spxentry{func\_nihpo\_create\_TS\_domain()}\spxextra{in module portal\_app.synth\_trial.functions}, 
+		\hyperpage{20}
+  \item \spxentry{func\_nihpo\_html\_format\_countries()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{38}
+  \item \spxentry{func\_nihpo\_person\_creation()}\spxextra{in module portal\_app.synth\_person.functions}, 
+		\hyperpage{8}
+  \item \spxentry{func\_nihpo\_postgresql\_create\_user()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{38}
+  \item \spxentry{func\_nihpo\_random\_alphaNumeric\_string()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{38}
+  \item \spxentry{func\_nihpo\_random\_date()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{39}
+  \item \spxentry{func\_nihpo\_random\_date\_between\_dates()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{39}
+  \item \spxentry{func\_nihpo\_random\_date\_birth()}\spxextra{in module portal\_app.synth\_phr.synth\_phr\_func}, 
+		\hyperpage{17}
+  \item \spxentry{func\_nihpo\_randomize()}\spxextra{in module portal\_app.synth\_phr.synth\_phr\_func}, 
+		\hyperpage{17}
+  \item \spxentry{func\_nihpo\_remove\_old\_files()}\spxextra{in module API\_NIHPO}, \hyperpage{1}
+  \item \spxentry{func\_nihpo\_subjects\_creation()}\spxextra{in module portal\_app.synth\_phr.subjects\_creation}, 
+		\hyperpage{16}
+  \item \spxentry{func\_nihpo\_subjects\_creation\_in\_provinces()}\spxextra{in module portal\_app.synth\_phr.subjects\_creation}, 
+		\hyperpage{16}
+  \item \spxentry{func\_nihpo\_synth\_data\_random\_value()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{39}
+  \item \spxentry{func\_nihpo\_synth\_data\_random\_value\_CTCAE()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{40}
+  \item \spxentry{func\_nihpo\_time\_counter()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{40}
+  \item \spxentry{func\_nihpo\_update\_sqlite3\_in\_superset()}\spxextra{in module portal\_app.synth\_trial.functions}, 
+		\hyperpage{22}
+
+  \indexspace
+  \bigletter G
+  \item \spxentry{geography()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{13}
+  \item \spxentry{get\_confirm\_email\_token()}\spxextra{portal\_app.models.User method}, 
+		\hyperpage{37}
+  \item \spxentry{get\_current\_permissions()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{40}
+  \item \spxentry{get\_data()}\spxextra{in module portal\_app.synth\_trial.routes}, \hyperpage{22}
+  \item \spxentry{get\_locale()}\spxextra{in module portal\_app}, \hyperpage{40}
+  \item \spxentry{get\_permissions()}\spxextra{portal\_app.models.User method}, \hyperpage{37}
+  \item \spxentry{get\_reset\_password\_token()}\spxextra{portal\_app.models.User method}, 
+		\hyperpage{37}
+
+  \indexspace
+  \bigletter H
+  \item \spxentry{help()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+
+  \indexspace
+  \bigletter I
+  \item \spxentry{i}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{29}
+  \item \spxentry{id}\spxextra{portal\_app.models.Files attribute}, \hyperpage{36}
+  \item \spxentry{id}\spxextra{portal\_app.models.Logs attribute}, \hyperpage{36}
+  \item \spxentry{id}\spxextra{portal\_app.models.Roles attribute}, \hyperpage{36}
+  \item \spxentry{id}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{inclusion}\spxextra{portal\_app.synth\_trial.forms.SyntheticTrialTEForm attribute}, 
+		\hyperpage{19}
+  \item \spxentry{inclusion}\spxextra{portal\_app.synth\_trial.forms.SyntheticTrialTVForm attribute}, 
+		\hyperpage{19}
+  \item \spxentry{index()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{init\_celery()}\spxextra{in module portal\_app.celery\_utils}, \hyperpage{35}
+  \item \spxentry{internal\_error()}\spxextra{in module portal\_app.errors.handlers}, \hyperpage{3}
+
+  \indexspace
+  \bigletter L
+  \item \spxentry{lab\_result()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{13}
+  \item \spxentry{last\_name}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{last\_name}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{last\_name}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{28}
+  \item \spxentry{last\_name}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{last\_name}\spxextra{portal\_app.tests.NihpoTestClass attribute}, \hyperpage{34}
+  \item \spxentry{last\_name()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{14}
+  \item \spxentry{last\_name\_length}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{last\_name\_length}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{28}
+  \item \spxentry{last\_name\_length}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{last\_name\_length}\spxextra{portal\_app.tests.NihpoTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{license\_for\_use()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{LicenseForUseForm}\spxextra{class in portal\_app.main.forms}, \hyperpage{4}
+  \item \spxentry{load\_user()}\spxextra{in module portal\_app.models}, \hyperpage{37}
+  \item \spxentry{log\_user}\spxextra{portal\_app.models.Logs attribute}, \hyperpage{36}
+  \item \spxentry{login()}\spxextra{in module portal\_app.auth.routes}, \hyperpage{3}
+  \item \spxentry{login\_fails}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{LoginForm}\spxextra{class in portal\_app.auth.forms}, \hyperpage{2}
+  \item \spxentry{logout()}\spxextra{in module portal\_app.auth.routes}, \hyperpage{3}
+  \item \spxentry{Logs}\spxextra{class in portal\_app.models}, \hyperpage{36}
+  \item \spxentry{logs}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+
+  \indexspace
+  \bigletter M
+  \item \spxentry{MainTestCase}\spxextra{class in portal\_app.tests.test\_main}, \hyperpage{23}
+  \item \spxentry{make\_celery()}\spxextra{in module portal\_app}, \hyperpage{40}
+  \item \spxentry{middle\_name()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{14}
+  \item \spxentry{module}
+    \subitem \spxentry{API\_NIHPO}, \hyperpage{1}
+    \subitem \spxentry{config}, \hyperpage{1}
+    \subitem \spxentry{config.default}, \hyperpage{1}
+    \subitem \spxentry{config.develop}, \hyperpage{1}
+    \subitem \spxentry{config.local}, \hyperpage{1}
+    \subitem \spxentry{config.prod}, \hyperpage{1}
+    \subitem \spxentry{config.testing}, \hyperpage{1}
+    \subitem \spxentry{portal\_app}, \hyperpage{40}
+    \subitem \spxentry{portal\_app.auth}, \hyperpage{3}
+    \subitem \spxentry{portal\_app.auth.email}, \hyperpage{2}
+    \subitem \spxentry{portal\_app.auth.forms}, \hyperpage{2}
+    \subitem \spxentry{portal\_app.auth.routes}, \hyperpage{3}
+    \subitem \spxentry{portal\_app.celery\_utils}, \hyperpage{35}
+    \subitem \spxentry{portal\_app.cli}, \hyperpage{35}
+    \subitem \spxentry{portal\_app.email}, \hyperpage{35}
+    \subitem \spxentry{portal\_app.errors}, \hyperpage{4}
+    \subitem \spxentry{portal\_app.errors.handlers}, \hyperpage{3}
+    \subitem \spxentry{portal\_app.main}, \hyperpage{5}
+    \subitem \spxentry{portal\_app.main.forms}, \hyperpage{4}
+    \subitem \spxentry{portal\_app.main.routes}, \hyperpage{4}
+    \subitem \spxentry{portal\_app.models}, \hyperpage{36}
+    \subitem \spxentry{portal\_app.nihpo\_functions}, \hyperpage{37}
+    \subitem \spxentry{portal\_app.podr}, \hyperpage{5}
+    \subitem \spxentry{portal\_app.podr.email}, \hyperpage{5}
+    \subitem \spxentry{portal\_app.podr.routes}, \hyperpage{5}
+    \subitem \spxentry{portal\_app.synth\_person}, \hyperpage{8}
+    \subitem \spxentry{portal\_app.synth\_person.email}, \hyperpage{5}
+    \subitem \spxentry{portal\_app.synth\_person.forms}, \hyperpage{5}
+    \subitem \spxentry{portal\_app.synth\_person.functions}, \hyperpage{8}
+    \subitem \spxentry{portal\_app.synth\_person.routes}, \hyperpage{8}
+    \subitem \spxentry{portal\_app.synth\_phr}, \hyperpage{18}
+    \subitem \spxentry{portal\_app.synth\_phr.email}, \hyperpage{8}
+    \subitem \spxentry{portal\_app.synth\_phr.forms}, \hyperpage{9}
+    \subitem \spxentry{portal\_app.synth\_phr.functions}, \hyperpage{12}
+    \subitem \spxentry{portal\_app.synth\_phr.json\_subject\_creation}, \hyperpage{15}
+    \subitem \spxentry{portal\_app.synth\_phr.routes}, \hyperpage{15}
+    \subitem \spxentry{portal\_app.synth\_phr.sqlite\_subject\_creation}, \hyperpage{16}
+    \subitem \spxentry{portal\_app.synth\_phr.subjects\_creation}, \hyperpage{16}
+    \subitem \spxentry{portal\_app.synth\_phr.synth\_phr\_func}, \hyperpage{17}
+    \subitem \spxentry{portal\_app.synth\_sub}, \hyperpage{18}
+    \subitem \spxentry{portal\_app.synth\_sub.forms}, \hyperpage{18}
+    \subitem \spxentry{portal\_app.synth\_sub.routes}, \hyperpage{18}
+    \subitem \spxentry{portal\_app.synth\_trial}, \hyperpage{23}
+    \subitem \spxentry{portal\_app.synth\_trial.constants}, \hyperpage{18}
+    \subitem \spxentry{portal\_app.synth\_trial.email}, \hyperpage{19}
+    \subitem \spxentry{portal\_app.synth\_trial.forms}, \hyperpage{19}
+    \subitem \spxentry{portal\_app.synth\_trial.functions}, \hyperpage{20}
+    \subitem \spxentry{portal\_app.synth\_trial.routes}, \hyperpage{22}
+    \subitem \spxentry{portal\_app.synth\_trial.trial\_design\_creation}, \hyperpage{23}
+    \subitem \spxentry{portal\_app.tests}, \hyperpage{27}
+    \subitem \spxentry{portal\_app.tests.test\_main}, \hyperpage{23}
+    \subitem \spxentry{portal\_app.tests.test\_nihpo\_functions}, \hyperpage{23}
+    \subitem \spxentry{portal\_app.tests.test\_phr}, \hyperpage{24}
+    \subitem \spxentry{portal\_app.tests.test\_trial}, \hyperpage{25}
+    \subitem \spxentry{portal\_app.tests.test\_user}, \hyperpage{26}
+    \subitem \spxentry{portal\_app.translate}, \hyperpage{40}
+  \item \spxentry{module}\spxextra{portal\_app.models.Files attribute}, \hyperpage{36}
+
+  \indexspace
+  \bigletter N
+  \item \spxentry{NihpoTestClass}\spxextra{class in portal\_app.tests}, \hyperpage{34}
+  \item \spxentry{not\_found\_error()}\spxextra{in module portal\_app.errors.handlers}, 
+		\hyperpage{3}
+  \item \spxentry{number}\spxextra{portal\_app.synth\_person.forms.Country attribute}, 
+		\hyperpage{7}
+  \item \spxentry{number}\spxextra{portal\_app.synth\_phr.forms.Country attribute}, \hyperpage{11}
+
+  \indexspace
+  \bigletter O
+  \item \spxentry{organization\_name}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+
+  \indexspace
+  \bigletter P
+  \item \spxentry{pass\_task\_person()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{pass\_task\_phr()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{pass\_task\_trial()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{password}\spxextra{portal\_app.auth.forms.LoginForm attribute}, \hyperpage{2}
+  \item \spxentry{password}\spxextra{portal\_app.auth.forms.ResetPasswordForm attribute}, 
+		\hyperpage{2}
+  \item \spxentry{password}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, \hyperpage{27}
+  \item \spxentry{password}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, \hyperpage{28}
+  \item \spxentry{password}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{29}
+  \item \spxentry{password}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{password}\spxextra{portal\_app.tests.NihpoTestClass attribute}, \hyperpage{34}
+  \item \spxentry{password2}\spxextra{portal\_app.auth.forms.ResetPasswordForm attribute}, 
+		\hyperpage{2}
+  \item \spxentry{password\_hash}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{password\_length}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{password\_length}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{28}
+  \item \spxentry{password\_length}\spxextra{portal\_app.tests.BaseTestClass attribute}, 
+		\hyperpage{29}
+  \item \spxentry{password\_length}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{password\_length}\spxextra{portal\_app.tests.NihpoTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{passwords}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{29}
+  \item \spxentry{PHRTestCase}\spxextra{class in portal\_app.tests.test\_phr}, \hyperpage{24}
+  \item \spxentry{podr\_password}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{podr\_username}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{portal\_app}
+    \subitem \spxentry{module}, \hyperpage{40}
+  \item \spxentry{portal\_app.auth}
+    \subitem \spxentry{module}, \hyperpage{3}
+  \item \spxentry{portal\_app.auth.email}
+    \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{portal\_app.auth.forms}
+    \subitem \spxentry{module}, \hyperpage{2}
+  \item \spxentry{portal\_app.auth.routes}
+    \subitem \spxentry{module}, \hyperpage{3}
+  \item \spxentry{portal\_app.celery\_utils}
+    \subitem \spxentry{module}, \hyperpage{35}
+  \item \spxentry{portal\_app.cli}
+    \subitem \spxentry{module}, \hyperpage{35}
+  \item \spxentry{portal\_app.email}
+    \subitem \spxentry{module}, \hyperpage{35}
+  \item \spxentry{portal\_app.errors}
+    \subitem \spxentry{module}, \hyperpage{4}
+  \item \spxentry{portal\_app.errors.handlers}
+    \subitem \spxentry{module}, \hyperpage{3}
+  \item \spxentry{portal\_app.main}
+    \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{portal\_app.main.forms}
+    \subitem \spxentry{module}, \hyperpage{4}
+  \item \spxentry{portal\_app.main.routes}
+    \subitem \spxentry{module}, \hyperpage{4}
+  \item \spxentry{portal\_app.models}
+    \subitem \spxentry{module}, \hyperpage{36}
+  \item \spxentry{portal\_app.nihpo\_functions}
+    \subitem \spxentry{module}, \hyperpage{37}
+  \item \spxentry{portal\_app.podr}
+    \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{portal\_app.podr.email}
+    \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{portal\_app.podr.routes}
+    \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{portal\_app.synth\_person}
+    \subitem \spxentry{module}, \hyperpage{8}
+  \item \spxentry{portal\_app.synth\_person.email}
+    \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{portal\_app.synth\_person.forms}
+    \subitem \spxentry{module}, \hyperpage{5}
+  \item \spxentry{portal\_app.synth\_person.functions}
+    \subitem \spxentry{module}, \hyperpage{8}
+  \item \spxentry{portal\_app.synth\_person.routes}
+    \subitem \spxentry{module}, \hyperpage{8}
+  \item \spxentry{portal\_app.synth\_phr}
+    \subitem \spxentry{module}, \hyperpage{18}
+  \item \spxentry{portal\_app.synth\_phr.email}
+    \subitem \spxentry{module}, \hyperpage{8}
+  \item \spxentry{portal\_app.synth\_phr.forms}
+    \subitem \spxentry{module}, \hyperpage{9}
+  \item \spxentry{portal\_app.synth\_phr.functions}
+    \subitem \spxentry{module}, \hyperpage{12}
+  \item \spxentry{portal\_app.synth\_phr.json\_subject\_creation}
+    \subitem \spxentry{module}, \hyperpage{15}
+  \item \spxentry{portal\_app.synth\_phr.routes}
+    \subitem \spxentry{module}, \hyperpage{15}
+  \item \spxentry{portal\_app.synth\_phr.sqlite\_subject\_creation}
+    \subitem \spxentry{module}, \hyperpage{16}
+  \item \spxentry{portal\_app.synth\_phr.subjects\_creation}
+    \subitem \spxentry{module}, \hyperpage{16}
+  \item \spxentry{portal\_app.synth\_phr.synth\_phr\_func}
+    \subitem \spxentry{module}, \hyperpage{17}
+  \item \spxentry{portal\_app.synth\_sub}
+    \subitem \spxentry{module}, \hyperpage{18}
+  \item \spxentry{portal\_app.synth\_sub.forms}
+    \subitem \spxentry{module}, \hyperpage{18}
+  \item \spxentry{portal\_app.synth\_sub.routes}
+    \subitem \spxentry{module}, \hyperpage{18}
+  \item \spxentry{portal\_app.synth\_trial}
+    \subitem \spxentry{module}, \hyperpage{23}
+  \item \spxentry{portal\_app.synth\_trial.constants}
+    \subitem \spxentry{module}, \hyperpage{18}
+  \item \spxentry{portal\_app.synth\_trial.email}
+    \subitem \spxentry{module}, \hyperpage{19}
+  \item \spxentry{portal\_app.synth\_trial.forms}
+    \subitem \spxentry{module}, \hyperpage{19}
+  \item \spxentry{portal\_app.synth\_trial.functions}
+    \subitem \spxentry{module}, \hyperpage{20}
+  \item \spxentry{portal\_app.synth\_trial.routes}
+    \subitem \spxentry{module}, \hyperpage{22}
+  \item \spxentry{portal\_app.synth\_trial.trial\_design\_creation}
+    \subitem \spxentry{module}, \hyperpage{23}
+  \item \spxentry{portal\_app.tests}
+    \subitem \spxentry{module}, \hyperpage{27}
+  \item \spxentry{portal\_app.tests.test\_main}
+    \subitem \spxentry{module}, \hyperpage{23}
+  \item \spxentry{portal\_app.tests.test\_nihpo\_functions}
+    \subitem \spxentry{module}, \hyperpage{23}
+  \item \spxentry{portal\_app.tests.test\_phr}
+    \subitem \spxentry{module}, \hyperpage{24}
+  \item \spxentry{portal\_app.tests.test\_trial}
+    \subitem \spxentry{module}, \hyperpage{25}
+  \item \spxentry{portal\_app.tests.test\_user}
+    \subitem \spxentry{module}, \hyperpage{26}
+  \item \spxentry{portal\_app.translate}
+    \subitem \spxentry{module}, \hyperpage{40}
+  \item \spxentry{procedure()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{14}
+  \item \spxentry{provider()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{14}
+
+  \indexspace
+  \bigletter R
+  \item \spxentry{read\_records}\spxextra{portal\_app.models.Roles attribute}, \hyperpage{36}
+  \item \spxentry{register()}\spxextra{in module portal\_app.cli}, \hyperpage{35}
+  \item \spxentry{register\_request()}\spxextra{in module portal\_app.auth.routes}, \hyperpage{3}
+  \item \spxentry{registration\_form\_generator()}\spxextra{in module portal\_app.auth.forms}, 
+		\hyperpage{3}
+  \item \spxentry{remember\_me}\spxextra{portal\_app.auth.forms.LoginForm attribute}, \hyperpage{2}
+  \item \spxentry{required\_permissions()}\spxextra{in module portal\_app.nihpo\_functions}, 
+		\hyperpage{40}
+  \item \spxentry{reset\_password()}\spxextra{in module portal\_app.auth.routes}, \hyperpage{3}
+  \item \spxentry{reset\_password\_request()}\spxextra{in module portal\_app.auth.routes}, 
+		\hyperpage{3}
+  \item \spxentry{ResetPasswordForm}\spxextra{class in portal\_app.auth.forms}, \hyperpage{2}
+  \item \spxentry{ResetPasswordRequestForm}\spxextra{class in portal\_app.auth.forms}, 
+		\hyperpage{3}
+  \item \spxentry{role}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{role\_name}\spxextra{portal\_app.models.Roles attribute}, \hyperpage{36}
+  \item \spxentry{Roles}\spxextra{class in portal\_app.models}, \hyperpage{36}
+
+  \indexspace
+  \bigletter S
+  \item \spxentry{see\_dashboards}\spxextra{portal\_app.models.Roles attribute}, \hyperpage{36}
+  \item \spxentry{select\_countries()}\spxextra{in module portal\_app.synth\_person.routes}, 
+		\hyperpage{8}
+  \item \spxentry{select\_countries()}\spxextra{in module portal\_app.synth\_phr.routes}, 
+		\hyperpage{16}
+  \item \spxentry{select\_countries\_form\_generator()}\spxextra{in module portal\_app.synth\_person.forms}, 
+		\hyperpage{8}
+  \item \spxentry{select\_countries\_form\_generator()}\spxextra{in module portal\_app.synth\_phr.forms}, 
+		\hyperpage{12}
+  \item \spxentry{send\_async\_email()}\spxextra{in module portal\_app.email}, \hyperpage{35}
+  \item \spxentry{send\_confirm\_register()}\spxextra{in module portal\_app.auth.email}, 
+		\hyperpage{2}
+  \item \spxentry{send\_email()}\spxextra{in module portal\_app.email}, \hyperpage{35}
+  \item \spxentry{send\_forgotten\_password\_reset\_email()}\spxextra{in module portal\_app.auth.email}, 
+		\hyperpage{2}
+  \item \spxentry{send\_password\_reset\_email()}\spxextra{in module portal\_app.auth.email}, 
+		\hyperpage{2}
+  \item \spxentry{send\_person\_file\_downloaded()}\spxextra{in module portal\_app.synth\_person.email}, 
+		\hyperpage{5}
+  \item \spxentry{send\_phr\_file\_downloaded()}\spxextra{in module portal\_app.synth\_phr.email}, 
+		\hyperpage{8}
+  \item \spxentry{send\_podr\_confirm\_register()}\spxextra{in module portal\_app.podr.email}, 
+		\hyperpage{5}
+  \item \spxentry{send\_podr\_credentials()}\spxextra{in module portal\_app.auth.email}, 
+		\hyperpage{2}
+  \item \spxentry{send\_trial\_file\_downloaded()}\spxextra{in module portal\_app.synth\_trial.email}, 
+		\hyperpage{19}
+  \item \spxentry{set\_password()}\spxextra{portal\_app.models.User method}, \hyperpage{37}
+  \item \spxentry{setUp()}\spxextra{portal\_app.tests.BaseMainTestClass method}, \hyperpage{27}
+  \item \spxentry{setUp()}\spxextra{portal\_app.tests.BasePHRTestClass method}, \hyperpage{28}
+  \item \spxentry{setUp()}\spxextra{portal\_app.tests.BaseTestClass method}, \hyperpage{30}
+  \item \spxentry{setUp()}\spxextra{portal\_app.tests.BaseTrialTestClass method}, \hyperpage{34}
+  \item \spxentry{setUp()}\spxextra{portal\_app.tests.NihpoTestClass method}, \hyperpage{34}
+  \item \spxentry{setUpClass()}\spxextra{portal\_app.tests.BaseMainTestClass class method}, 
+		\hyperpage{27}
+  \item \spxentry{setUpClass()}\spxextra{portal\_app.tests.BasePHRTestClass class method}, 
+		\hyperpage{28}
+  \item \spxentry{setUpClass()}\spxextra{portal\_app.tests.BaseTestClass class method}, 
+		\hyperpage{30}
+  \item \spxentry{setUpClass()}\spxextra{portal\_app.tests.BaseTrialTestClass class method}, 
+		\hyperpage{34}
+  \item \spxentry{setUpClass()}\spxextra{portal\_app.tests.NihpoTestClass class method}, 
+		\hyperpage{35}
+  \item \spxentry{submit}\spxextra{portal\_app.auth.forms.LoginForm attribute}, \hyperpage{2}
+  \item \spxentry{submit}\spxextra{portal\_app.auth.forms.ResetPasswordForm attribute}, 
+		\hyperpage{2}
+  \item \spxentry{submit}\spxextra{portal\_app.auth.forms.ResetPasswordRequestForm attribute}, 
+		\hyperpage{3}
+  \item \spxentry{submit}\spxextra{portal\_app.main.forms.DisclaimerForm attribute}, \hyperpage{4}
+  \item \spxentry{submit}\spxextra{portal\_app.main.forms.LicenseForUseForm attribute}, 
+		\hyperpage{4}
+  \item \spxentry{submit}\spxextra{portal\_app.synth\_sub.forms.CreateSyntheticSubForm attribute}, 
+		\hyperpage{18}
+  \item \spxentry{submit}\spxextra{portal\_app.synth\_trial.forms.SyntheticTrialTEForm attribute}, 
+		\hyperpage{19}
+  \item \spxentry{submit}\spxextra{portal\_app.synth\_trial.forms.SyntheticTrialTVForm attribute}, 
+		\hyperpage{19}
+  \item \spxentry{synthetic\_creates\_trial\_form\_generator()}\spxextra{in module portal\_app.synth\_trial.forms}, 
+		\hyperpage{19}
+  \item \spxentry{synthetic\_person\_form\_generator()}\spxextra{in module portal\_app.main.forms}, 
+		\hyperpage{4}
+  \item \spxentry{synthetic\_person\_form\_generator()}\spxextra{in module portal\_app.synth\_person.forms}, 
+		\hyperpage{8}
+  \item \spxentry{synthetic\_phr\_form\_generator()}\spxextra{in module portal\_app.main.forms}, 
+		\hyperpage{4}
+  \item \spxentry{synthetic\_phr\_form\_generator()}\spxextra{in module portal\_app.synth\_phr.forms}, 
+		\hyperpage{12}
+  \item \spxentry{synthetic\_sub\_form\_generator()}\spxextra{in module portal\_app.main.forms}, 
+		\hyperpage{4}
+  \item \spxentry{synthetic\_trial\_form\_generator()}\spxextra{in module portal\_app.main.forms}, 
+		\hyperpage{4}
+  \item \spxentry{synthetic\_trial\_output()}\spxextra{in module portal\_app.synth\_trial.forms}, 
+		\hyperpage{20}
+  \item \spxentry{SyntheticTrialArmsElementsVisits}\spxextra{class in portal\_app.synth\_trial.forms}, 
+		\hyperpage{19}
+  \item \spxentry{SyntheticTrialTEForm}\spxextra{class in portal\_app.synth\_trial.forms}, 
+		\hyperpage{19}
+  \item \spxentry{SyntheticTrialTVForm}\spxextra{class in portal\_app.synth\_trial.forms}, 
+		\hyperpage{19}
+  \item \spxentry{SyntheticTrialVariablesNotControlled}\spxextra{class in portal\_app.synth\_trial.forms}, 
+		\hyperpage{19}
+  \item \spxentry{synthperson()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{synthphr()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{synthsub()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{synthtrial()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+
+  \indexspace
+  \bigletter T
+  \item \spxentry{TA\_Arm}\spxextra{class in portal\_app.synth\_trial.forms}, \hyperpage{19}
+  \item \spxentry{TA\_Element}\spxextra{class in portal\_app.synth\_trial.forms}, \hyperpage{19}
+  \item \spxentry{table}\spxextra{portal\_app.models.Logs attribute}, \hyperpage{36}
+  \item \spxentry{taskstatus()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{tearDown()}\spxextra{portal\_app.tests.BaseMainTestClass method}, \hyperpage{27}
+  \item \spxentry{tearDown()}\spxextra{portal\_app.tests.BasePHRTestClass method}, \hyperpage{28}
+  \item \spxentry{tearDown()}\spxextra{portal\_app.tests.NihpoTestClass method}, \hyperpage{35}
+  \item \spxentry{tearDownClass()}\spxextra{portal\_app.tests.BaseMainTestClass class method}, 
+		\hyperpage{27}
+  \item \spxentry{tearDownClass()}\spxextra{portal\_app.tests.BasePHRTestClass class method}, 
+		\hyperpage{28}
+  \item \spxentry{tearDownClass()}\spxextra{portal\_app.tests.BaseTestClass class method}, 
+		\hyperpage{32}
+  \item \spxentry{tearDownClass()}\spxextra{portal\_app.tests.BaseTrialTestClass class method}, 
+		\hyperpage{34}
+  \item \spxentry{tearDownClass()}\spxextra{portal\_app.tests.NihpoTestClass class method}, 
+		\hyperpage{35}
+  \item \spxentry{test\_condition()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_create\_delete\_folder()}\spxextra{portal\_app.tests.test\_user.UserTestCase method}, 
+		\hyperpage{26}
+  \item \spxentry{test\_create\_files()}\spxextra{portal\_app.tests.test\_user.UserTestCase method}, 
+		\hyperpage{26}
+  \item \spxentry{test\_device()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_drug()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_func\_nihpo\_convert\_to\_sas()}\spxextra{portal\_app.tests.test\_nihpo\_functions.TrialTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_func\_nihpo\_create\_trial\_design\_domain\_row()}\spxextra{portal\_app.tests.test\_trial.TrialTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_func\_nihpo\_create\_trial\_random\_domain\_row()}\spxextra{portal\_app.tests.test\_trial.TrialTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_func\_nihpo\_create\_TS\_domain()}\spxextra{portal\_app.tests.test\_trial.TrialTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_func\_nihpo\_generate\_SQLite3\_file()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_func\_nihpo\_generate\_trial\_design\_from\_sqlite()}\spxextra{portal\_app.tests.test\_trial.TrialTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_func\_nihpo\_html\_format\_countries()}\spxextra{portal\_app.tests.test\_nihpo\_functions.TrialTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_func\_nihpo\_json\_file()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_func\_nihpo\_random\_alphaNumeric\_string()}\spxextra{portal\_app.tests.test\_nihpo\_functions.TrialTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_func\_nihpo\_random\_date()}\spxextra{portal\_app.tests.test\_nihpo\_functions.TrialTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_func\_nihpo\_random\_date\_between\_dates()}\spxextra{portal\_app.tests.test\_nihpo\_functions.TrialTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_func\_nihpo\_random\_date\_birth()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_func\_nihpo\_randomize()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_func\_nihpo\_subjects\_creation()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_func\_nihpo\_synth\_data\_random\_value()}\spxextra{portal\_app.tests.test\_nihpo\_functions.TrialTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_func\_nihpo\_synth\_data\_random\_value\_CTCAE()}\spxextra{portal\_app.tests.test\_nihpo\_functions.TrialTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_func\_nihpo\_time\_counter()}\spxextra{portal\_app.tests.test\_nihpo\_functions.TrialTestCase method}, 
+		\hyperpage{24}
+  \item \spxentry{test\_geography()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_get\_confirm\_email\_token()}\spxextra{portal\_app.tests.test\_user.UserTestCase method}, 
+		\hyperpage{26}
+  \item \spxentry{test\_get\_reset\_password\_token()}\spxextra{portal\_app.tests.test\_user.UserTestCase method}, 
+		\hyperpage{26}
+  \item \spxentry{test\_index()}\spxextra{portal\_app.tests.test\_main.MainTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_lab\_result()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_login\_fails()}\spxextra{portal\_app.tests.test\_user.UserTestCase method}, 
+		\hyperpage{26}
+  \item \spxentry{test\_no\_login\_pages()}\spxextra{portal\_app.tests.test\_main.MainTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_not\_redirect\_to\_login()}\spxextra{portal\_app.tests.test\_main.MainTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_only()}\spxextra{in module portal\_app.auth.routes}, \hyperpage{3}
+  \item \spxentry{test\_password\_hashing()}\spxextra{portal\_app.tests.test\_user.UserTestCase method}, 
+		\hyperpage{26}
+  \item \spxentry{test\_phr\_page()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_procedure()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_provider()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{test\_redirect\_to\_login()}\spxextra{portal\_app.tests.test\_main.MainTestCase method}, 
+		\hyperpage{23}
+  \item \spxentry{test\_vital()}\spxextra{portal\_app.tests.test\_phr.PHRTestCase method}, 
+		\hyperpage{25}
+  \item \spxentry{thank\_you()}\spxextra{in module portal\_app.main.routes}, \hyperpage{4}
+  \item \spxentry{translate()}\spxextra{in module portal\_app.translate}, \hyperpage{40}
+  \item \spxentry{trial\_output()}\spxextra{in module portal\_app.synth\_trial.routes}, 
+		\hyperpage{22}
+  \item \spxentry{trial\_summary\_parameters()}\spxextra{in module portal\_app.synth\_trial.routes}, 
+		\hyperpage{22}
+  \item \spxentry{TrialTestCase}\spxextra{class in portal\_app.tests.test\_nihpo\_functions}, 
+		\hyperpage{23}
+  \item \spxentry{TrialTestCase}\spxextra{class in portal\_app.tests.test\_trial}, \hyperpage{25}
+  \item \spxentry{try\_permission()}\spxextra{in module portal\_app.synth\_trial.routes}, 
+		\hyperpage{22}
+
+  \indexspace
+  \bigletter U
+  \item \spxentry{update\_db()}\spxextra{in module portal\_app.synth\_trial.routes}, \hyperpage{22}
+  \item \spxentry{updated\_at}\spxextra{portal\_app.models.Files attribute}, \hyperpage{36}
+  \item \spxentry{updated\_at}\spxextra{portal\_app.models.Logs attribute}, \hyperpage{36}
+  \item \spxentry{User}\spxextra{class in portal\_app.models}, \hyperpage{36}
+  \item \spxentry{user\_id}\spxextra{portal\_app.models.Files attribute}, \hyperpage{36}
+  \item \spxentry{user\_id}\spxextra{portal\_app.models.Logs attribute}, \hyperpage{36}
+  \item \spxentry{user\_role}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{username}\spxextra{portal\_app.models.User attribute}, \hyperpage{37}
+  \item \spxentry{username}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, \hyperpage{27}
+  \item \spxentry{username}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, \hyperpage{28}
+  \item \spxentry{username}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{32}
+  \item \spxentry{username}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{username}\spxextra{portal\_app.tests.NihpoTestClass attribute}, \hyperpage{35}
+  \item \spxentry{username\_email}\spxextra{portal\_app.auth.forms.LoginForm attribute}, 
+		\hyperpage{2}
+  \item \spxentry{username\_length}\spxextra{portal\_app.tests.BaseMainTestClass attribute}, 
+		\hyperpage{27}
+  \item \spxentry{username\_length}\spxextra{portal\_app.tests.BasePHRTestClass attribute}, 
+		\hyperpage{28}
+  \item \spxentry{username\_length}\spxextra{portal\_app.tests.BaseTestClass attribute}, 
+		\hyperpage{32}
+  \item \spxentry{username\_length}\spxextra{portal\_app.tests.BaseTrialTestClass attribute}, 
+		\hyperpage{34}
+  \item \spxentry{username\_length}\spxextra{portal\_app.tests.NihpoTestClass attribute}, 
+		\hyperpage{35}
+  \item \spxentry{usernames}\spxextra{portal\_app.tests.BaseTestClass attribute}, \hyperpage{32}
+  \item \spxentry{users}\spxextra{portal\_app.models.Roles attribute}, \hyperpage{36}
+  \item \spxentry{UserTestCase}\spxextra{class in portal\_app.tests.test\_user}, \hyperpage{26}
+
+  \indexspace
+  \bigletter V
+  \item \spxentry{validate\_password()}\spxextra{portal\_app.auth.forms.ResetPasswordForm method}, 
+		\hyperpage{2}
+  \item \spxentry{verify\_confirm\_email\_token()}\spxextra{portal\_app.models.User static method}, 
+		\hyperpage{37}
+  \item \spxentry{verify\_reset\_password\_token()}\spxextra{portal\_app.models.User static method}, 
+		\hyperpage{37}
+  \item \spxentry{vital()}\spxextra{portal\_app.synth\_phr.functions.Domains method}, 
+		\hyperpage{15}
+
+\end{sphinxtheindex}

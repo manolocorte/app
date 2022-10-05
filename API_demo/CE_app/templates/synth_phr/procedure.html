@@ -1,0 +1,46 @@
+{% extends "synth_phr/layout.html" %}
+
+{% block title %}Procedure{% endblock %}
+
+{% block content %}
+
+<H2>Procedure Help Menu</H2>
+
+<p>This endpoint returns full details of a medical procedure.
+Using a list of the most commonly-used procedures in SNOMED-CT.</p>
+
+
+<H1>DRAFT</H1>
+
+
+<H2>Available Options</H2>
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/synth_phr/api/v01/procedure">/api/v01/procedure</a></td>
+		<td>Returns random procedure(s).</td>
+	</tr>
+	<tr>
+		<td>&number=nnn</td>
+		<td>This parameter defines the number of records to return.<br>
+Anonymous (free) users can request up to 05 records at a time.<br>
+Paid subscribers can request up to 100 records at a time.<br>
+(Default = 1 record).</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/procedure?record_type=procedure,regime/therapy">/api/v01/procedure?record_type=[procedure_list]</a></td>
+		<td>Returns random procedure(s) within the selected type(s).<br>Options:<br>"procedure"<br>"regime/therapy"</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/procedure?help">/api/v01/procedure?help</a></td>
+		<td>This help menu.</td>
+	</tr>
+</table>
+
+{% endblock %}

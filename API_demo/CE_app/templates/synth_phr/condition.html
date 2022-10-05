@@ -1,0 +1,56 @@
+{% extends "synth_phr/layout.html" %}
+
+{% block title %}Condition{% endblock %}
+
+{% block content %}
+
+<H2>Condition Help Menu</H2>
+
+<p>This endpoint returns a scientifically-valid health condition.<br>Using concepts from the SNOMED CT hierarchy "Clinical finding".</p>
+
+<H1>DRAFT</H1>
+
+<H2>Available Options</H2>
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/synth_phr/api/v01/condition">/api/v01/condition</a></td>
+		<td>Returns random condition(s).</td>
+	</tr>
+	<tr>
+		<td>&number=nnn</td>
+		<td>This parameter defines the number of records to return.<br>
+Anonymous (free) users can request up to 05 records at a time.<br>
+Paid subscribers can request up to 100 records at a time.<br>
+(Default = 1 record).</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/condition?record_type=disorder,finding">/api/v01/condition?record_type=[hierarchy_list]</a></td>
+		<td>Types of concepts.<br>
+Options: "disorder"; "finding"; "situation"<br>
+The following options, while present in the dataset, are not made available due to the low number of values:<br>
+"event": "63"<br>
+"morphologic abnormality": "46"<br>
+"navigational concept": "2"<br>
+"person": "2"</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/condition?source=snomed_ct_core">/api/v01/condition?source=snomed_ct_core</a></td>
+		<td>Selected information source.<br>
+Options: "snomed_ct_core"<br>
+Currently we only have the Clinical Observations Recordings and Encoding (CORE) Problem List Subset of SNOMED CT available.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/condition?help">/api/v01/condition?help</a></td>
+		<td>This help menu</td>
+	</tr>
+</table>
+
+
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends "synth_phr/layout.html" %}
+
+{% block title %}Lab Result{% endblock %}
+
+{% block content %}
+
+<H2>Lab Result Help Menu</H2>
+
+<p>This endpoint returns a scientifically-valid laboratory result set.
+Using the Universal Lab Orders Value Set from LOINC. These LOINC codes cover more than 95% of lab test orders in the U.S.</p>
+
+
+<H1>DRAFT</H1>
+
+
+<H2>Available Options</H2>
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result">/api/v01/lab_result</a></td>
+		<td>Returns random lab result(s).</td>
+	</tr>
+	<tr>
+		<td>&number=nnn</td>
+		<td>This parameter defines the number of records to return.<br>
+Anonymous (free) users can request up to 05 records at a time.<br>
+Paid subscribers can request up to 100 records at a time.<br>
+(Default = 1 record).</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result?cdisc_common_tests=y">/api/v01/lab_result?cdisc_common_tests=[y/n]</a></td>
+		<td>Returns random lab result(s) within terms that are part of a subset of LOINC terms used by CDISC clinical trials.<br>Options:<br>"y"</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result?class_type=1,2">/api/v01/lab_result?class_type=[classtype_list]</a></td>
+		<td>Returns random lab result(s) within the selected class type(s).<br>Options:<br>"1" for Laboratory class<br>"2" for Clinical class<br>"3" for Claims attachments<br>"4" for Surveys</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result?loinc_num=6896-5">/api/v01/lab_result?loinc_num=[LOINC number]</a></td>
+		<td>Returns full lab result for the selected LOINC number.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result?panel_type=organizer,convenience">/api/v01/lab_result?panel_type=[panel_type_list]</a></td>
+		<td>Returns random lab result(s) within the selected panel type(s).<br>Options:<br>"convenience"<br>"organizer"<br>"panel"</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result?rank=order">/api/v01/lab_result?rank=[rank_list]</a></td>
+		<td>Returns random lab result(s) within the selected rank(s).<br>Options:<br>"order" for COMMON_ORDER_RANK {Ranking of approximately 300 common orders performed by laboratories in USA.}<br>"si_test" for COMMON_SI_TEST_RANK {Corresponding SI terms for 2,000 common tests performed by laboratories in USA.}<br>"test" for COMMON_TEST_RANK {Ranking of approximately 2,000 common tests performed by laboratories in USA.}</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result?status=deprecated">/api/v01/lab_result?status=[status_list]</a></td>
+		<td>Returns random lab result(s) within the selected status(es).<br>Options:<br>"deprecated"<br>"discouraged"<br>"trial"<br>"Active" terms will be displayed by default. User must specify additional status codes.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result?source=loinc">/api/v01/lab_result?source=[source_list]</a></td>
+		<td>Returns random lab result(s) within the selected source(s).<br>Options:<br>"loinc"<br>"discouraged"<br>Currently we only have the Logical Observation Identifiers Names and Codes (LOINC) data available.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/lab_result?help">/api/v01/lab_result?help</a></td>
+		<td>This help menu.</td>
+	</tr>
+</table>
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+    <div class="form-wrapper">
+        <h1 class="title">Synthetic Submission</h1>
+        <br>
+        <form method="POST" action="{{ url_for('main.synthsub') }}">
+            {{ form.hidden_tag() }}
+            <h3>Create New Synthetic Submission</h3>
+            <h3>Download Synthetic Submission Files</h3>
+            <fieldset class="form-field">
+            <pre>{{ form.sub_files.label }}  {{ form.sub_files }}
+
+{{ form.download }}</pre>
+                {% if form.sub_files.errors %}
+                <ul class="errors">
+                    {% for error in form.sub_files.errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if form.download.errors %}
+                <ul class="errors">
+                    {% for error in form.download.errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </fieldset>
+      </form>
+    </div>
+{% endblock %}

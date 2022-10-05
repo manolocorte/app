@@ -1,0 +1,68 @@
+{% extends "synth_phr/layout.html" %}
+
+{% block title %}Geography{% endblock %}
+
+{% block content %}
+
+<H2>Geography Help Menu</H2>
+
+<p>This endpoint returns a location in a province within a country anywhere in the world.</p>
+
+<H1>DRAFT</H1>
+
+<H2>Available Options</H2>
+
+<table class="table table-bordered table-hover">
+	<thead class="thead-dark">
+		<tr>
+			<th>Endpoint</th>
+			<th>Returns</th>
+		</tr>
+	</thead>
+	<tr>
+		<td><a href="/synth_phr/api/v01/geography">/api/v01/geography</a></td>
+		<td>Returns random geographical location(s).</td>
+	</tr>
+	<tr>
+		<td>&number=nnn</td>
+		<td>This parameter defines the number of records to return.<br>
+Anonymous (free) users can request up to 05 records at a time.<br>
+Paid subscribers can request up to 100 records at a time.<br>
+(Default = 1 record).</td>
+	</tr>
+	<tr>
+		<td>&randomize=0</td>
+		<td>The parameter “randomize=0” will turn off the slight randomization of Lat/  Long of each returned location.<br>
+This randomization will return a Lat / Long that is slightly off the default Lat / Long for the returned location.<br>
+This randomization helps avoid multiple points overlapping on a single Lat/Long point when displaying the returned location on a map.<br>
+(Default = 1, do randomize locations)..</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/geography?country=us">/api/v01/geography?country=[country_code_list]</a></td>
+		<td>Full random geographical location within the selected country(ies).<br>
+(Default = 1 record).</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/geography?country=us&state=fl">/api/v01/geography?country=[country_code]&state=[state_name_list]</a></td>
+		<td>Full random geographical location within the selected country, and state(s).</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/geography?help_countries">/api/v01/geography?help_countries</a></td>
+		<td>List of codes for available countries.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/geography?help_country=de&states">/api/v01/geography?help_country=[country_code]&states</a></td>
+		<td>List of states / provinces for the selected country.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/geography?help_country=us&state=fl&locations">/api/v01/geography?help_country=[country_code]&state=[state_code]&locations</a></td>
+		<td>List of locations in this state / province within the defined country.</td>
+	</tr>
+	<tr>
+		<td><a href="/synth_phr/api/v01/geography?help">/api/v01/geography?help</a></td>
+		<td>This help menu.</td>
+	</tr>
+</table>
+
+
+{% endblock %}
