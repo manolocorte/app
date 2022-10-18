@@ -1,5 +1,8 @@
 package gui;
 
+import java.util.ArrayList;
+import webscrapper.Worker;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -30,9 +33,93 @@ public class Hub extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        ventanaError = new javax.swing.JDialog();
+        Base_Dialogo_Fondo = new javax.swing.JPanel();
+        Base_Dialogo = new javax.swing.JPanel();
+        texto = new javax.swing.JLabel();
         Base = new javax.swing.JPanel();
         Base_Fondo_Negra = new javax.swing.JPanel();
         Base_Fondo_Naranja = new javax.swing.JPanel();
+        amazonButton = new javax.swing.JRadioButton();
+        item_textField = new javax.swing.JTextField();
+        searchButton = new javax.swing.JButton();
+        alibabaButton = new javax.swing.JRadioButton();
+        busquedaVisible = new javax.swing.JCheckBox();
+        backButton = new javax.swing.JButton();
+        Header = new javax.swing.JPanel();
+        Logo = new javax.swing.JLabel();
+        AmazonPane = new javax.swing.JScrollPane();
+        AmazonTextArea = new javax.swing.JTextArea();
+        amazonIcono = new javax.swing.JLabel();
+        alibabaIcono = new javax.swing.JLabel();
+        exitButton = new javax.swing.JButton();
+        AlibabaPane = new javax.swing.JScrollPane();
+        AlibabaTextArea = new javax.swing.JTextArea();
+
+        Base_Dialogo_Fondo.setBackground(new java.awt.Color(0, 0, 0));
+        Base_Dialogo_Fondo.setToolTipText("Base Decorativa, separa de Base activa en el panel de login");
+
+        Base_Dialogo.setBackground(new java.awt.Color(255, 133, 50));
+        Base_Dialogo.setToolTipText("Base Login Con los items de acción");
+
+        texto.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        texto.setText("             Datos Erroneos!, comprueba el ítem a buscar y selecciona una plataforma");
+        texto.setToolTipText("Texto alerta");
+
+        javax.swing.GroupLayout Base_DialogoLayout = new javax.swing.GroupLayout(Base_Dialogo);
+        Base_Dialogo.setLayout(Base_DialogoLayout);
+        Base_DialogoLayout.setHorizontalGroup(
+            Base_DialogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Base_DialogoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(texto, javax.swing.GroupLayout.DEFAULT_SIZE, 796, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        Base_DialogoLayout.setVerticalGroup(
+            Base_DialogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Base_DialogoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(texto, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout Base_Dialogo_FondoLayout = new javax.swing.GroupLayout(Base_Dialogo_Fondo);
+        Base_Dialogo_Fondo.setLayout(Base_Dialogo_FondoLayout);
+        Base_Dialogo_FondoLayout.setHorizontalGroup(
+            Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 882, Short.MAX_VALUE)
+            .addGroup(Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Base_Dialogo_FondoLayout.createSequentialGroup()
+                    .addGap(33, 33, 33)
+                    .addComponent(Base_Dialogo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(29, Short.MAX_VALUE)))
+        );
+        Base_Dialogo_FondoLayout.setVerticalGroup(
+            Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 232, Short.MAX_VALUE)
+            .addGroup(Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Base_Dialogo_FondoLayout.createSequentialGroup()
+                    .addGap(23, 23, 23)
+                    .addComponent(Base_Dialogo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGap(23, 23, 23)))
+        );
+
+        javax.swing.GroupLayout ventanaErrorLayout = new javax.swing.GroupLayout(ventanaError.getContentPane());
+        ventanaError.getContentPane().setLayout(ventanaErrorLayout);
+        ventanaErrorLayout.setHorizontalGroup(
+            ventanaErrorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ventanaErrorLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Base_Dialogo_Fondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24))
+        );
+        ventanaErrorLayout.setVerticalGroup(
+            ventanaErrorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ventanaErrorLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Base_Dialogo_Fondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -44,15 +131,157 @@ public class Hub extends javax.swing.JFrame {
         Base_Fondo_Naranja.setBackground(new java.awt.Color(255, 133, 50));
         Base_Fondo_Naranja.setToolTipText("Base con los items de acción");
 
+        amazonButton.setText("Amazon");
+        amazonButton.setToolTipText("boton para indicar el uso de amazon ");
+
+        item_textField.setText("ítem a buscar!");
+        item_textField.setToolTipText("receptor para el ítem a buscar");
+        item_textField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                item_textFieldActionPerformed(evt);
+            }
+        });
+
+        searchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8-google-web-search-100.png"))); // NOI18N
+        searchButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                searchButtonActionPerformed(evt);
+            }
+        });
+
+        alibabaButton.setText("Alibaba");
+        alibabaButton.setToolTipText("boton para indicar el uso de alibaba");
+
+        busquedaVisible.setText("Búsqueda Visible");
+
+        backButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8-double-left-50.png"))); // NOI18N
+        backButton.setToolTipText("Back button");
+        backButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                backButtonActionPerformed(evt);
+            }
+        });
+
+        Header.setBackground(new java.awt.Color(0, 142, 122));
+        Header.setToolTipText("Pannel que contiene logo");
+
+        Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/bsmart_logo.png"))); // NOI18N
+        Logo.setToolTipText("Etiqueta con logo");
+
+        javax.swing.GroupLayout HeaderLayout = new javax.swing.GroupLayout(Header);
+        Header.setLayout(HeaderLayout);
+        HeaderLayout.setHorizontalGroup(
+            HeaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HeaderLayout.createSequentialGroup()
+                .addGap(51, 51, 51)
+                .addComponent(Logo)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        HeaderLayout.setVerticalGroup(
+            HeaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(HeaderLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(Logo)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        AmazonPane.setToolTipText("pane for the amazon text area");
+
+        AmazonTextArea.setColumns(20);
+        AmazonTextArea.setRows(5);
+        AmazonPane.setViewportView(AmazonTextArea);
+
+        amazonIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8-amazon-50.png"))); // NOI18N
+        amazonIcono.setToolTipText("Icono de Amazon");
+
+        alibabaIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/alibaba.png"))); // NOI18N
+        alibabaIcono.setToolTipText("Icono de Aliababa");
+
+        exitButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8-exit-100.png"))); // NOI18N
+        exitButton.setToolTipText("Exit Button");
+        exitButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                exitButtonActionPerformed(evt);
+            }
+        });
+
+        AlibabaPane.setToolTipText("Pane for the alibaba text area");
+
+        AlibabaTextArea.setColumns(20);
+        AlibabaTextArea.setRows(5);
+        AlibabaTextArea.setToolTipText("Alibaba Text area");
+        AlibabaPane.setViewportView(AlibabaTextArea);
+
         javax.swing.GroupLayout Base_Fondo_NaranjaLayout = new javax.swing.GroupLayout(Base_Fondo_Naranja);
         Base_Fondo_Naranja.setLayout(Base_Fondo_NaranjaLayout);
         Base_Fondo_NaranjaLayout.setHorizontalGroup(
             Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1401, Short.MAX_VALUE)
+            .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                .addGroup(Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                        .addGroup(Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                                .addGap(24, 24, 24)
+                                .addComponent(Header, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(189, 189, 189))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Base_Fondo_NaranjaLayout.createSequentialGroup()
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                                        .addComponent(amazonIcono)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(amazonButton, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(item_textField, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                                        .addComponent(alibabaIcono)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(alibabaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(busquedaVisible, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(137, 137, 137)))
+                        .addComponent(AmazonPane))
+                    .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(backButton)
+                        .addGap(427, 427, 427)
+                        .addComponent(searchButton, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(exitButton))
+                    .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                        .addGap(640, 640, 640)
+                        .addComponent(AlibabaPane, javax.swing.GroupLayout.DEFAULT_SIZE, 487, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         Base_Fondo_NaranjaLayout.setVerticalGroup(
             Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 923, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Base_Fondo_NaranjaLayout.createSequentialGroup()
+                .addGroup(Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                        .addGap(23, 23, 23)
+                        .addComponent(Header, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(50, 50, 50)
+                        .addComponent(item_textField, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(52, 52, 52)
+                        .addGroup(Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(amazonButton, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(amazonIcono))
+                        .addGap(51, 51, 51)
+                        .addGroup(Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(alibabaButton, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(alibabaIcono))
+                        .addGap(50, 50, 50)
+                        .addComponent(busquedaVisible)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(backButton))
+                    .addGroup(Base_Fondo_NaranjaLayout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addComponent(AmazonPane, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(AlibabaPane, javax.swing.GroupLayout.PREFERRED_SIZE, 262, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 98, Short.MAX_VALUE)
+                        .addGroup(Base_Fondo_NaranjaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(searchButton, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(exitButton))))
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout Base_Fondo_NegraLayout = new javax.swing.GroupLayout(Base_Fondo_Negra);
@@ -62,25 +291,29 @@ public class Hub extends javax.swing.JFrame {
             .addGroup(Base_Fondo_NegraLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
                 .addComponent(Base_Fondo_Naranja, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Base_Fondo_NegraLayout.setVerticalGroup(
             Base_Fondo_NegraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Base_Fondo_NegraLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
                 .addComponent(Base_Fondo_Naranja, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(14, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout BaseLayout = new javax.swing.GroupLayout(Base);
         Base.setLayout(BaseLayout);
         BaseLayout.setHorizontalGroup(
             BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Base_Fondo_Negra, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(BaseLayout.createSequentialGroup()
+                .addComponent(Base_Fondo_Negra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         BaseLayout.setVerticalGroup(
             BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Base_Fondo_Negra, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(BaseLayout.createSequentialGroup()
+                .addComponent(Base_Fondo_Negra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 13, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -91,13 +324,50 @@ public class Hub extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(Base, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(Base, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void item_textFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_item_textFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_item_textFieldActionPerformed
+
+    private void searchButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchButtonActionPerformed
+        // TODO add your handling code here:
+        // Una vez se ha rellenado el formulario, se genera el worker
+        // Para ello, primero declaro las variables que necesitaré 
+        boolean alibaba = false;
+        boolean amazon = false; 
+        boolean busqueda_visible = false; 
+        String item_a_buscar = this.item_textField.getText();
+        // Se comprueba que haya un string en el textfield para producto, y que al menos se haya seleccionado una plataforma de e-comerce
+        if ((item_a_buscar.length() != 0) && (this.alibabaButton.isSelected() ||this.amazonButton.isSelected())){
+            ArrayList<javax.swing.JTextArea> textAreas = new ArrayList<javax.swing.JTextArea>();
+            textAreas.add(this.AmazonTextArea);
+            textAreas.add(this.AlibabaTextArea);
+            Worker worker = new Worker(this.item_textField.getText(),this.amazonButton.isSelected(),this.alibabaButton.isSelected(),this.busquedaVisible.isSelected(),textAreas);
+            worker.initialise_scrappers();
+            
+        } else {
+            this.ventanaError.setVisible(true);
+            this.ventanaError.setModal(true);
+            this.ventanaError.setSize(900, 300);
+        }
+ 
+        
+    }//GEN-LAST:event_searchButtonActionPerformed
+
+    private void backButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backButtonActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+    }//GEN-LAST:event_backButtonActionPerformed
+
+    private void exitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitButtonActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+    }//GEN-LAST:event_exitButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -142,8 +412,27 @@ public class Hub extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JScrollPane AlibabaPane;
+    private javax.swing.JTextArea AlibabaTextArea;
+    private javax.swing.JScrollPane AmazonPane;
+    private javax.swing.JTextArea AmazonTextArea;
     private javax.swing.JPanel Base;
+    private javax.swing.JPanel Base_Dialogo;
+    private javax.swing.JPanel Base_Dialogo_Fondo;
     private javax.swing.JPanel Base_Fondo_Naranja;
     private javax.swing.JPanel Base_Fondo_Negra;
+    private javax.swing.JPanel Header;
+    private javax.swing.JLabel Logo;
+    private javax.swing.JRadioButton alibabaButton;
+    private javax.swing.JLabel alibabaIcono;
+    private javax.swing.JRadioButton amazonButton;
+    private javax.swing.JLabel amazonIcono;
+    private javax.swing.JButton backButton;
+    private javax.swing.JCheckBox busquedaVisible;
+    private javax.swing.JButton exitButton;
+    private javax.swing.JTextField item_textField;
+    private javax.swing.JButton searchButton;
+    private javax.swing.JLabel texto;
+    private javax.swing.JDialog ventanaError;
     // End of variables declaration//GEN-END:variables
 }

@@ -1,5 +1,7 @@
 package gui;
 
+import bd.Conector;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -14,9 +16,11 @@ public class LoginForm extends javax.swing.JFrame {
     /**
      * Creates new form LoginForm
      */
-
+    private Conector conector = new Conector();
+    
     public LoginForm() {
         initComponents();
+        
     }
 
     /**
@@ -30,6 +34,10 @@ public class LoginForm extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        ventanaError = new javax.swing.JDialog();
+        Base_Dialogo_Fondo = new javax.swing.JPanel();
+        Base_Dialogo = new javax.swing.JPanel();
+        texto = new javax.swing.JLabel();
         Base = new javax.swing.JPanel();
         Base_Derecha_Panel_Login = new javax.swing.JPanel();
         LoginButton = new javax.swing.JButton();
@@ -43,6 +51,71 @@ public class LoginForm extends javax.swing.JFrame {
         Logo = new javax.swing.JLabel();
         compareFaster = new javax.swing.JLabel();
         saveFaster = new javax.swing.JLabel();
+
+        Base_Dialogo_Fondo.setBackground(new java.awt.Color(0, 0, 0));
+        Base_Dialogo_Fondo.setToolTipText("Base Decorativa, separa de Base activa en el panel de login");
+
+        Base_Dialogo.setBackground(new java.awt.Color(255, 133, 50));
+        Base_Dialogo.setToolTipText("Base Login Con los items de acción");
+
+        texto.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        texto.setText("             Datos Erroneos!, comprueba los datos o regístrate!");
+        texto.setToolTipText("Texto alerta");
+
+        javax.swing.GroupLayout Base_DialogoLayout = new javax.swing.GroupLayout(Base_Dialogo);
+        Base_Dialogo.setLayout(Base_DialogoLayout);
+        Base_DialogoLayout.setHorizontalGroup(
+            Base_DialogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Base_DialogoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(texto, javax.swing.GroupLayout.DEFAULT_SIZE, 796, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        Base_DialogoLayout.setVerticalGroup(
+            Base_DialogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Base_DialogoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(texto, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout Base_Dialogo_FondoLayout = new javax.swing.GroupLayout(Base_Dialogo_Fondo);
+        Base_Dialogo_Fondo.setLayout(Base_Dialogo_FondoLayout);
+        Base_Dialogo_FondoLayout.setHorizontalGroup(
+            Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 882, Short.MAX_VALUE)
+            .addGroup(Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Base_Dialogo_FondoLayout.createSequentialGroup()
+                    .addGap(33, 33, 33)
+                    .addComponent(Base_Dialogo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(29, Short.MAX_VALUE)))
+        );
+        Base_Dialogo_FondoLayout.setVerticalGroup(
+            Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 232, Short.MAX_VALUE)
+            .addGroup(Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Base_Dialogo_FondoLayout.createSequentialGroup()
+                    .addGap(23, 23, 23)
+                    .addComponent(Base_Dialogo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGap(23, 23, 23)))
+        );
+
+        javax.swing.GroupLayout ventanaErrorLayout = new javax.swing.GroupLayout(ventanaError.getContentPane());
+        ventanaError.getContentPane().setLayout(ventanaErrorLayout);
+        ventanaErrorLayout.setHorizontalGroup(
+            ventanaErrorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ventanaErrorLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Base_Dialogo_Fondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24))
+        );
+        ventanaErrorLayout.setVerticalGroup(
+            ventanaErrorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ventanaErrorLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Base_Dialogo_Fondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -186,34 +259,28 @@ public class LoginForm extends javax.swing.JFrame {
                 .addComponent(compareFaster)
                 .addGap(120, 120, 120)
                 .addComponent(saveFaster)
-                .addContainerGap(370, Short.MAX_VALUE))
+                .addContainerGap(398, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout BaseLayout = new javax.swing.GroupLayout(Base);
         Base.setLayout(BaseLayout);
         BaseLayout.setHorizontalGroup(
             BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1431, Short.MAX_VALUE)
+            .addGroup(BaseLayout.createSequentialGroup()
+                .addComponent(Base_Izquierda_Panel_Login, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 556, Short.MAX_VALUE))
             .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BaseLayout.createSequentialGroup()
                     .addContainerGap(881, Short.MAX_VALUE)
                     .addComponent(Base_Derecha_Panel_Login, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap()))
-            .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(BaseLayout.createSequentialGroup()
-                    .addComponent(Base_Izquierda_Panel_Login, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 509, Short.MAX_VALUE)))
         );
         BaseLayout.setVerticalGroup(
             BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 947, Short.MAX_VALUE)
+            .addComponent(Base_Izquierda_Panel_Login, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(BaseLayout.createSequentialGroup()
                     .addComponent(Base_Derecha_Panel_Login, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addContainerGap()))
-            .addGroup(BaseLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(BaseLayout.createSequentialGroup()
-                    .addComponent(Base_Izquierda_Panel_Login, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addContainerGap()))
         );
 
@@ -253,6 +320,18 @@ public class LoginForm extends javax.swing.JFrame {
 
     private void LoginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginButtonActionPerformed
         // TODO add your handling code here:
+        boolean valido = this.conector.comprobar_usuario(this.usernameField.getText(),this.passwordField.getText());
+        
+        if (valido == false){
+            this.ventanaError.setVisible(true);
+            this.ventanaError.setSize(900, 300);
+            this.ventanaError.setModal(true);
+        }
+        else{
+            Hub hub = new Hub();
+            hub.setVisible(true);
+            this.dispose();
+        }
     }//GEN-LAST:event_LoginButtonActionPerformed
 
     private void usernameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usernameFieldActionPerformed
@@ -297,6 +376,8 @@ public class LoginForm extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Base;
     private javax.swing.JPanel Base_Derecha_Panel_Login;
+    private javax.swing.JPanel Base_Dialogo;
+    private javax.swing.JPanel Base_Dialogo_Fondo;
     private javax.swing.JPanel Base_Izquierda_Panel_Login;
     private javax.swing.JPanel Header;
     private javax.swing.JButton LoginButton;
@@ -306,7 +387,9 @@ public class LoginForm extends javax.swing.JFrame {
     private javax.swing.JPasswordField passwordField;
     private javax.swing.JLabel passwordIcon;
     private javax.swing.JLabel saveFaster;
+    private javax.swing.JLabel texto;
     private javax.swing.JTextField usernameField;
     private javax.swing.JLabel usernameIcon;
+    private javax.swing.JDialog ventanaError;
     // End of variables declaration//GEN-END:variables
 }

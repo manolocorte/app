@@ -5,7 +5,9 @@
 package main;
 
 import gui.LoginForm;
+import webscrapper.AmazonScrapper;
 import webscrapper.Scrapper;
+import webscrapper.Worker;
 
 /**
  *
@@ -18,12 +20,9 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       // LoginForm login = new LoginForm(); 
-       // login.setVisible(true);
-        Scrapper s = new Scrapper(); 
-        s.inicializar_navegador();
-        
-        
+      LoginForm login = new LoginForm();    
+      login.setVisible(true);
+      //  System.out.println("a\na\na");
     }
     
 }

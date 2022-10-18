@@ -1,5 +1,9 @@
 package gui;
 
+import bd.Conector;
+import java.util.regex.Pattern;
+import main.User;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -14,6 +18,7 @@ public class RegisterForm extends javax.swing.JFrame {
     /**
      * Creates new form LoginForm
      */
+    private Conector conector = new Conector();
     public RegisterForm() {
         initComponents();
     }
@@ -27,17 +32,86 @@ public class RegisterForm extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        ventanaError = new javax.swing.JDialog();
+        Base_Dialogo_Fondo = new javax.swing.JPanel();
+        Base_Dialogo = new javax.swing.JPanel();
+        texto = new javax.swing.JLabel();
         basePaneBlack = new javax.swing.JPanel();
         basePaneOrange = new javax.swing.JPanel();
         backButton = new javax.swing.JButton();
         registerButton = new javax.swing.JButton();
         passwordField1 = new javax.swing.JPasswordField();
         passwordField2 = new javax.swing.JPasswordField();
-        usernameField1 = new javax.swing.JTextField();
+        usernameField = new javax.swing.JTextField();
         usernameIcon1 = new javax.swing.JLabel();
         passwordIcon1 = new javax.swing.JLabel();
-        usernameField2 = new javax.swing.JTextField();
+        emailField = new javax.swing.JTextField();
         usernameIcon2 = new javax.swing.JLabel();
+
+        Base_Dialogo_Fondo.setBackground(new java.awt.Color(0, 0, 0));
+        Base_Dialogo_Fondo.setToolTipText("Base Decorativa, separa de Base activa en el panel de login");
+
+        Base_Dialogo.setBackground(new java.awt.Color(255, 133, 50));
+        Base_Dialogo.setToolTipText("Base Login Con los items de acción");
+
+        texto.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        texto.setText("             Datos Erroneos!, comprueba los datos o regístrate!");
+        texto.setToolTipText("Texto alerta");
+
+        javax.swing.GroupLayout Base_DialogoLayout = new javax.swing.GroupLayout(Base_Dialogo);
+        Base_Dialogo.setLayout(Base_DialogoLayout);
+        Base_DialogoLayout.setHorizontalGroup(
+            Base_DialogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Base_DialogoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(texto, javax.swing.GroupLayout.DEFAULT_SIZE, 796, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        Base_DialogoLayout.setVerticalGroup(
+            Base_DialogoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Base_DialogoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(texto, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout Base_Dialogo_FondoLayout = new javax.swing.GroupLayout(Base_Dialogo_Fondo);
+        Base_Dialogo_Fondo.setLayout(Base_Dialogo_FondoLayout);
+        Base_Dialogo_FondoLayout.setHorizontalGroup(
+            Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 882, Short.MAX_VALUE)
+            .addGroup(Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Base_Dialogo_FondoLayout.createSequentialGroup()
+                    .addGap(33, 33, 33)
+                    .addComponent(Base_Dialogo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(29, Short.MAX_VALUE)))
+        );
+        Base_Dialogo_FondoLayout.setVerticalGroup(
+            Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 232, Short.MAX_VALUE)
+            .addGroup(Base_Dialogo_FondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Base_Dialogo_FondoLayout.createSequentialGroup()
+                    .addGap(23, 23, 23)
+                    .addComponent(Base_Dialogo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGap(23, 23, 23)))
+        );
+
+        javax.swing.GroupLayout ventanaErrorLayout = new javax.swing.GroupLayout(ventanaError.getContentPane());
+        ventanaError.getContentPane().setLayout(ventanaErrorLayout);
+        ventanaErrorLayout.setHorizontalGroup(
+            ventanaErrorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ventanaErrorLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Base_Dialogo_Fondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24))
+        );
+        ventanaErrorLayout.setVerticalGroup(
+            ventanaErrorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ventanaErrorLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Base_Dialogo_Fondo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -56,6 +130,11 @@ public class RegisterForm extends javax.swing.JFrame {
 
         registerButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8-save-50.png"))); // NOI18N
         registerButton.setToolTipText("Register Buton");
+        registerButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                registerButtonActionPerformed(evt);
+            }
+        });
 
         passwordField1.setBackground(new java.awt.Color(0, 0, 0));
         passwordField1.setForeground(new java.awt.Color(255, 255, 255));
@@ -65,13 +144,13 @@ public class RegisterForm extends javax.swing.JFrame {
         passwordField2.setForeground(new java.awt.Color(255, 255, 255));
         passwordField2.setToolTipText("Password field 1");
 
-        usernameField1.setBackground(new java.awt.Color(0, 0, 0));
-        usernameField1.setForeground(new java.awt.Color(255, 255, 255));
-        usernameField1.setText("Nuevo Usuario");
-        usernameField1.setToolTipText("Username Field");
-        usernameField1.addActionListener(new java.awt.event.ActionListener() {
+        usernameField.setBackground(new java.awt.Color(0, 0, 0));
+        usernameField.setForeground(new java.awt.Color(255, 255, 255));
+        usernameField.setText("Nuevo Usuario");
+        usernameField.setToolTipText("Username Field");
+        usernameField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                usernameField1ActionPerformed(evt);
+                usernameFieldActionPerformed(evt);
             }
         });
 
@@ -81,13 +160,13 @@ public class RegisterForm extends javax.swing.JFrame {
         passwordIcon1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8-lock-50.png"))); // NOI18N
         passwordIcon1.setToolTipText("Password Icon");
 
-        usernameField2.setBackground(new java.awt.Color(0, 0, 0));
-        usernameField2.setForeground(new java.awt.Color(255, 255, 255));
-        usernameField2.setText("Nuevo Correo");
-        usernameField2.setToolTipText("Email Field");
-        usernameField2.addActionListener(new java.awt.event.ActionListener() {
+        emailField.setBackground(new java.awt.Color(0, 0, 0));
+        emailField.setForeground(new java.awt.Color(255, 255, 255));
+        emailField.setText("Nuevo Correo");
+        emailField.setToolTipText("Email Field");
+        emailField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                usernameField2ActionPerformed(evt);
+                emailFieldActionPerformed(evt);
             }
         });
 
@@ -115,8 +194,8 @@ public class RegisterForm extends javax.swing.JFrame {
                                 .addGap(44, 44, 44)
                                 .addGroup(basePaneOrangeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(passwordField2)
-                                    .addComponent(usernameField1)
-                                    .addComponent(usernameField2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE))))
+                                    .addComponent(usernameField)
+                                    .addComponent(emailField, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE))))
                         .addGap(80, 80, 80))
                     .addGroup(basePaneOrangeLayout.createSequentialGroup()
                         .addComponent(backButton)
@@ -132,13 +211,13 @@ public class RegisterForm extends javax.swing.JFrame {
                 .addGap(33, 33, 33)
                 .addGroup(basePaneOrangeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(basePaneOrangeLayout.createSequentialGroup()
-                        .addComponent(usernameField1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(usernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(20, 20, 20))
                     .addGroup(basePaneOrangeLayout.createSequentialGroup()
                         .addComponent(usernameIcon1)
                         .addGap(18, 18, 18)))
                 .addGroup(basePaneOrangeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(usernameField2, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(emailField, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(usernameIcon2))
                 .addGap(31, 31, 31)
                 .addGroup(basePaneOrangeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -184,18 +263,67 @@ public class RegisterForm extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void usernameField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usernameField1ActionPerformed
+    private void usernameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usernameFieldActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_usernameField1ActionPerformed
+    }//GEN-LAST:event_usernameFieldActionPerformed
 
-    private void usernameField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usernameField2ActionPerformed
+    private void emailFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_emailFieldActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_usernameField2ActionPerformed
+    }//GEN-LAST:event_emailFieldActionPerformed
 
     private void backButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backButtonActionPerformed
         // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_backButtonActionPerformed
+
+    private void registerButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registerButtonActionPerformed
+        // TODO add your handling code here:
+        // Segmento para validar el email 
+        /**
+         * La expresión regular siguiente permite:
+         * - numeros de 0 a 9
+         * - letras mayúsculas y minúsculas de la A a la Z
+         * - Caracteres - _ y .
+         * - No permite puntos consectuvios
+         * - No se permiten puntos al principio o final de la parte local
+         * - Solo 64 caracteres para la parte local
+         * - No se permite - o . al principio o final de el dominio
+         */
+        System.out.println(this.usernameField.getText());
+        System.out.println(this.emailField.getText());
+        System.out.println(this.passwordField1.getText());
+        System.out.println(this.passwordField2.getText());
+        
+        
+        String regexPattern = "^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@" 
+        + "[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$";
+
+        if (!Pattern.compile(regexPattern).matcher(this.emailField.getText()).matches()){
+            System.out.println("Email invalido");
+            this.ventanaError.setVisible(true);
+            this.ventanaError.setModal(true);
+            this.ventanaError.setSize(900, 300);
+            
+          // SEGMENTO PARA VALIDAR CONTRASEÑAS Y USUARIO
+        } else if ((!this.passwordField1.getText().equals(this.passwordField2.getText()))|| this.passwordField1.getText().length()==0 || this.usernameField.getText().length()==0){
+            System.out.println("Contraseñas repetidas, inválidas o no hay texto en usuario");
+            this.ventanaError.setVisible(true);
+            this.ventanaError.setModal(true);
+            this.ventanaError.setSize(900, 300);
+            
+          // SEGMENTO PARA COMPROBAR SI YA EXISTE EL USUARIO 
+        } else if (conector.comprobar_usuario(this.usernameField.getText(), this.passwordField1.getText())){
+            System.out.println("Usuario ya existe");
+            System.out.println("usuario existe? "+conector.comprobar_usuario(this.usernameField.getText(), this.passwordField1.getText()));
+        } else {
+            User usuario = new User(this.usernameField.getText(),this.emailField.getText(),this.passwordField1.getText());
+            conector.anadir_usuario(usuario);
+            System.out.println("Usuario "+this.usernameField.getText()+" añadido!");
+        }
+                       
+
+                
+    }//GEN-LAST:event_registerButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -234,16 +362,20 @@ public class RegisterForm extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel Base_Dialogo;
+    private javax.swing.JPanel Base_Dialogo_Fondo;
     private javax.swing.JButton backButton;
     private javax.swing.JPanel basePaneBlack;
     private javax.swing.JPanel basePaneOrange;
+    private javax.swing.JTextField emailField;
     private javax.swing.JPasswordField passwordField1;
     private javax.swing.JPasswordField passwordField2;
     private javax.swing.JLabel passwordIcon1;
     private javax.swing.JButton registerButton;
-    private javax.swing.JTextField usernameField1;
-    private javax.swing.JTextField usernameField2;
+    private javax.swing.JLabel texto;
+    private javax.swing.JTextField usernameField;
     private javax.swing.JLabel usernameIcon1;
     private javax.swing.JLabel usernameIcon2;
+    private javax.swing.JDialog ventanaError;
     // End of variables declaration//GEN-END:variables
 }
