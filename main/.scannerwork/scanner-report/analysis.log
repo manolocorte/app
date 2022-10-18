@@ -1,0 +1,143 @@
+Environment variables:
+  - =::=::\
+  - =C:=C:\Users\Usuario\Desktop\TFG\app\app\main
+  - ALLUSERSPROFILE=C:\ProgramData
+  - APPDATA=C:\Users\Usuario\AppData\Roaming
+  - COMPUTERNAME=DESKTOP-UO5LSC6
+  - ChocolateyInstall=C:\ProgramData\chocolatey
+  - ChocolateyLastPathUpdate=132795690627630260
+  - ComSpec=C:\WINDOWS\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - DriverData=C:\Windows\System32\Drivers\DriverData
+  - ERROR_CODE=0
+  - FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+  - FPS_BROWSER_USER_PROFILE_STRING=Default
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\Usuario
+  - JAVA_EXEC="C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\bin\..\jre\bin\java.exe"
+  - JAVA_HOME=C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\bin\..\jre
+  - LOCALAPPDATA=C:\Users\Usuario\AppData\Local
+  - LOGONSERVER=\\DESKTOP-UO5LSC6
+  - NUMBER_OF_PROCESSORS=2
+  - OS=Windows_NT
+  - OneDrive=C:\Users\Usuario\OneDrive
+  - OneDriveConsumer=C:\Users\Usuario\OneDrive
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 32 Stepping 1, AuthenticAMD
+  - PROCESSOR_LEVEL=23
+  - PROCESSOR_REVISION=2001
+  - PROJECT_HOME=C:\Users\Usuario\Desktop\TFG\app\app\main
+  - PROMPT=$P$G
+  - PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+  - PT8HOME=C:\Program Files\Cisco Packet Tracer 8.0
+  - PUBLIC=C:\Users\Public
+  - Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\BaseX\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Usuario\AppData\Local\GitHubDesktop\bin
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - QT_DEVICE_PIXEL_RATIO=auto
+  - SESSIONNAME=Console
+  - SONAR_SCANNER_HOME=C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\bin\..
+  - SystemDrive=C:
+  - SystemRoot=C:\WINDOWS
+  - TEMP=C:\Users\Usuario\AppData\Local\Temp
+  - TMP=C:\Users\Usuario\AppData\Local\Temp
+  - USERDOMAIN=DESKTOP-UO5LSC6
+  - USERDOMAIN_ROAMINGPROFILE=DESKTOP-UO5LSC6
+  - USERNAME=Usuario
+  - USERPROFILE=C:\Users\Usuario
+  - VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1
+  - VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+  - scriptdir=C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\bin
+  - use_embedded_jre=true
+  - windir=C:\WINDOWS
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=Cp1252
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\bin\..\lib\sonar-scanner-cli-4.2.0.1873.jar
+  - java.class.version=55.0
+  - java.home=C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\jre
+  - java.io.tmpdir=C:\Users\Usuario\AppData\Local\Temp\
+  - java.library.path=C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\BaseX\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Usuario\AppData\Local\GitHubDesktop\bin;.
+  - java.runtime.name=OpenJDK Runtime Environment
+  - java.runtime.version=11.0.3+7
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=11
+  - java.vendor=AdoptOpenJDK
+  - java.vendor.url=https://adoptopenjdk.net/
+  - java.vendor.url.bug=https://github.com/AdoptOpenJDK/openjdk-build/issues
+  - java.vendor.version=AdoptOpenJDK
+  - java.version=11.0.3
+  - java.version.date=2019-04-16
+  - java.vm.compressedOopsMode=32-bit
+  - java.vm.info=mixed mode
+  - java.vm.name=OpenJDK 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=11
+  - java.vm.vendor=AdoptOpenJDK
+  - java.vm.version=11.0.3+7
+  - jdk.debug=release
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 10
+  - os.version=10.0
+  - path.separator=;
+  - project.home=C:\Users\Usuario\Desktop\TFG\app\app\main
+  - scanner.home=C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.library.path=C:\Users\Usuario\Desktop\TFG\app\sonar-scanner-4.2.0.1873-windows\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -Dsonar.projectKey=tfg -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.login=7b4b4b54b60f96647951dee7ef343e0ea3d5789f -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=Cp1252
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=
+  - sun.stderr.encoding=cp850
+  - sun.stdout.encoding=cp850
+  - user.country=ES
+  - user.dir=C:\Users\Usuario\Desktop\TFG\app\app\main
+  - user.home=C:\Users\Usuario
+  - user.language=es
+  - user.name=Usuario
+  - user.script=
+  - user.timezone=Europe/Paris
+  - user.variant=
+SonarQube plugins:
+  - SonarC# 6.5.0.3766 (csharp)
+  - SonarPython 1.8.0.1496 (python)
+  - SonarJava 4.15.0.12310 (java)
+  - Flex 2.3 (flex)
+  - SonarQube :: Plugins :: SCM :: Git 1.3.0.869 (scmgit)
+  - SonarXML 1.4.3.1027 (xml)
+  - SonarPHP 2.11.0.2485 (php)
+  - SonarTS 1.1.0.1079 (typescript)
+  - SonarQube :: Plugins :: SCM :: SVN 1.6.0.860 (scmsvn)
+  - SonarJS 3.2.0.5506 (javascript)
+Global properties:
+  - sonar.core.id=BF41A1F2-AYPqkuzXVaO9Y7ALt2gM
+  - sonar.core.startTime=2022-10-18T12:10:39+0200
+Settings for module: tfg
+  - sonar.host.url=http://localhost:9000
+  - sonar.login=******
+  - sonar.projectBaseDir=C:\Users\Usuario\Desktop\TFG\app\app\main
+  - sonar.projectKey=tfg
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=4.2.0.1873
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=.
+  - sonar.verbose=true
+  - sonar.working.directory=C:\Users\Usuario\Desktop\TFG\app\app\main\.scannerwork
