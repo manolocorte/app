@@ -1,0 +1,53 @@
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.7.0.2747
+INFO: Java 11.0.15 Alpine (64-bit)
+INFO: Linux 5.4.72-microsoft-standard-WSL2 amd64
+INFO: User cache: /opt/sonar-scanner/.sonar/cache
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: Analyzing on SonarQube server 9.7.0.61563
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=2052ms
+INFO: Server id: 147B411E-AYPqO2sMvOuLtvT2qzah
+INFO: User cache: /opt/sonar-scanner/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=1178ms
+INFO: Load/download plugins (done) | time=151456ms
+INFO: Process project properties
+INFO: Process project properties (done) | time=27ms
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=29ms
+INFO: Project key: TFG
+INFO: Base dir: /usr/src
+INFO: Working dir: /usr/src/.scannerwork
+INFO: Load project settings for component key: 'TFG'
+INFO: Load project settings for component key: 'TFG' (done) | time=1128ms
+WARN: SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=3620ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=30361ms
+INFO: Load analysis cache
+INFO: Load analysis cache (404) | time=28ms
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=283ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: 242 files indexed
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: ------------- Run sensors on module TFG
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=955ms
+INFO: Sensor JavaSensor [java]
+INFO: Configured Java source version (sonar.java.source): none
+INFO: JavaClasspath initialization
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 5:48.403s
+INFO: Final Memory: 15M/54M
+INFO: ------------------------------------------------------------------------
